@@ -3,328 +3,816 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Copa do Mundo 2026 Calendar</title>
+    <title>Copa do Mundo 2026 | Central de Assinatura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
       :root {
-        --bg: #f5f1e8;
-        --panel: #fffaf0;
-        --ink: #11203b;
-        --muted: #5b6475;
-        --accent: #0d7c66;
-        --accent-2: #e76f51;
-        --border: #d9cfbf;
+        --pitch: #0f4d37;
+        --pitch-deep: #08281e;
+        --night: #10263f;
+        --night-2: #17385d;
+        --paper: #f5f1e8;
+        --chalk: #f9f7f2;
+        --ink: #102136;
+        --muted: #617081;
+        --line: rgba(16, 33, 54, 0.16);
+        --line-strong: rgba(16, 33, 54, 0.32);
+        --gold: #ffdf00;
+        --gold-deep: #c6ab00;
+        --brazil-green: #009c3b;
+        --red-card: #d1495b;
+        --success: #0d7c66;
+        --shadow: 0 18px 45px rgba(8, 20, 32, 0.08);
       }
 
       * {
         box-sizing: border-box;
       }
 
+      html {
+        scroll-behavior: smooth;
+      }
+
       body {
         margin: 0;
-        font-family: Georgia, "Times New Roman", serif;
+        font-family: "IBM Plex Sans", sans-serif;
         color: var(--ink);
         background:
-          radial-gradient(circle at top right, rgba(231, 111, 81, 0.18), transparent 30%),
-          radial-gradient(circle at left center, rgba(13, 124, 102, 0.18), transparent 35%),
-          var(--bg);
+          radial-gradient(circle at top left, rgba(255, 223, 0, 0.18), transparent 22%),
+          radial-gradient(circle at 85% 15%, rgba(0, 156, 59, 0.18), transparent 28%),
+          linear-gradient(180deg, #e8ecf2 0%, #f4efe7 46%, #f1ece2 100%);
       }
 
-      main {
-        max-width: 860px;
-        margin: 0 auto;
-        padding: 48px 20px 72px;
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px);
+        background-size: 28px 28px;
+        opacity: 0.16;
+        mix-blend-mode: soft-light;
       }
 
-      .card {
-        background: var(--panel);
-        border: 1px solid var(--border);
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        width: min(1240px, calc(100% - 32px));
+        margin: 24px auto 56px;
+      }
+
+      .topbar {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr 1fr;
+        gap: 12px;
+        margin-bottom: 16px;
+      }
+
+      .ticker {
+        position: relative;
+        overflow: hidden;
+        padding: 14px 18px;
         border-radius: 18px;
-        padding: 28px;
-        box-shadow: 0 18px 50px rgba(17, 32, 59, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        background: linear-gradient(135deg, var(--night), var(--night-2));
+        color: white;
+        box-shadow: var(--shadow);
+      }
+
+      .ticker::after {
+        content: "";
+        position: absolute;
+        inset: auto -40px -50px auto;
+        width: 180px;
+        height: 180px;
+        border-radius: 999px;
+        background: rgba(255, 223, 0, 0.14);
+      }
+
+      .ticker-label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 0.74rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        opacity: 0.78;
+      }
+
+      .ticker-value {
+        font-family: "Oswald", sans-serif;
+        font-size: clamp(1.4rem, 2vw, 2rem);
+        line-height: 1;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(320px, 0.92fr) minmax(0, 1.08fr);
+        gap: 16px;
+        align-items: start;
+      }
+
+      .hero {
+        position: sticky;
+        top: 18px;
+        overflow: hidden;
+        border-radius: 28px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        background:
+          linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0)),
+          linear-gradient(145deg, var(--pitch) 0%, var(--pitch-deep) 100%);
+        color: white;
+        padding: 28px 28px 26px;
+        box-shadow: var(--shadow);
+      }
+
+      .hero::before,
+      .hero::after {
+        content: "";
+        position: absolute;
+        border-radius: 999px;
+        opacity: 0.14;
+      }
+
+      .hero::before {
+        width: 320px;
+        height: 320px;
+        right: -120px;
+        top: -90px;
+        background: var(--gold);
+      }
+
+      .hero::after {
+        width: 180px;
+        height: 180px;
+        left: -70px;
+        bottom: -80px;
+        background: white;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 12px;
+        margin-bottom: 18px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.12);
+        font-size: 0.78rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        background: var(--gold);
+        box-shadow: 0 0 0 5px rgba(255, 223, 0, 0.12);
       }
 
       h1 {
-        margin: 0 0 12px;
-        font-size: clamp(2.2rem, 4vw, 4rem);
-        line-height: 0.96;
-        letter-spacing: -0.03em;
+        margin: 0;
+        font-family: "Oswald", sans-serif;
+        font-size: clamp(3rem, 5vw, 5.6rem);
+        line-height: 0.92;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
       }
 
-      p {
-        font-size: 1.06rem;
-        line-height: 1.6;
-        color: var(--muted);
+      .hero-copy {
+        max-width: 36ch;
+        margin: 18px 0 24px;
+        font-size: 1.04rem;
+        line-height: 1.65;
+        color: rgba(255, 255, 255, 0.82);
       }
 
-      .actions {
+      .hero-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+
+      .hero-stat {
+        padding: 14px;
+        border-radius: 16px;
+        background: rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.14);
+      }
+
+      .hero-stat strong {
+        display: block;
+        font-family: "Oswald", sans-serif;
+        font-size: 1.5rem;
+        line-height: 1;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .hero-stat span {
+        display: block;
+        margin-top: 6px;
+        font-size: 0.88rem;
+        color: rgba(255,255,255,0.72);
+      }
+
+      .hero-actions {
         display: flex;
         flex-wrap: wrap;
-        gap: 12px;
-        margin: 28px 0;
+        gap: 10px;
       }
 
       .button {
-        display: inline-block;
-        padding: 14px 18px;
-        border-radius: 999px;
+        appearance: none;
+        border: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 48px;
+        padding: 12px 18px;
+        border-radius: 14px;
         text-decoration: none;
         font-weight: 700;
-        border: 1px solid var(--ink);
+        font-size: 0.96rem;
+        cursor: pointer;
+        transition: transform 140ms ease, background 140ms ease, border-color 140ms ease;
+      }
+
+      .button:hover {
+        transform: translateY(-1px);
       }
 
       .button.primary {
-        background: var(--ink);
-        color: #fff;
+        background: var(--gold);
+        color: #1e2208;
       }
 
       .button.secondary {
+        background: rgba(255,255,255,0.08);
+        color: white;
+        border: 1px solid rgba(255,255,255,0.18);
+      }
+
+      .button.dark {
+        background: var(--night);
+        color: white;
+      }
+
+      .button.ghost {
         background: transparent;
         color: var(--ink);
+        border: 1px solid var(--line-strong);
       }
 
-      .grid {
+      .board {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 14px;
-        margin-top: 24px;
+        gap: 16px;
       }
 
-      .subscribe {
-        margin-top: 28px;
-        padding: 18px;
-        border-radius: 14px;
-        border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.75);
+      .match-pass {
+        position: relative;
+        overflow: hidden;
+        border-radius: 28px;
+        background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255,255,255,0.95));
+        border: 1px solid rgba(255,255,255,0.55);
+        box-shadow: var(--shadow);
       }
 
-      .subscribe h2 {
-        margin: 0 0 10px;
-        font-size: 1.2rem;
+      .match-pass::before,
+      .match-pass::after {
+        content: "";
+        position: absolute;
+        top: 108px;
+        width: 22px;
+        height: 22px;
+        border-radius: 999px;
+        background: #edf0f3;
+        border: 1px solid rgba(16, 33, 54, 0.08);
       }
 
-      .subscribe p {
-        margin: 8px 0;
+      .match-pass::before {
+        left: -11px;
       }
 
-      .url-box {
-        display: block;
-        width: 100%;
-        margin-top: 12px;
-        padding: 14px;
-        border-radius: 12px;
-        border: 1px solid var(--border);
-        background: #fff;
-        color: var(--ink);
-        font-family: "SFMono-Regular", Consolas, monospace;
-        font-size: 0.92rem;
-        line-height: 1.5;
-        word-break: break-all;
+      .match-pass::after {
+        right: -11px;
       }
 
-      .steps {
-        margin: 16px 0 0;
-        padding-left: 18px;
+      .pass-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 18px 22px 16px;
+        border-bottom: 1px dashed rgba(16, 33, 54, 0.18);
+      }
+
+      .pass-title {
+        margin: 0;
+        font-family: "Oswald", sans-serif;
+        font-size: clamp(1.6rem, 2.5vw, 2.35rem);
+        line-height: 0.98;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+
+      .pass-subtitle {
+        margin: 8px 0 0;
+        max-width: 44ch;
         color: var(--muted);
       }
 
-      .steps li + li {
-        margin-top: 8px;
-      }
-
-      .copy-feedback {
-        min-height: 1.4em;
-        margin-top: 10px;
-        color: var(--accent);
+      .pass-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        font-size: 0.78rem;
         font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        white-space: nowrap;
       }
 
-      .stack {
+      .pass-tag.gold {
+        background: rgba(255, 223, 0, 0.16);
+        color: #7a6500;
+      }
+
+      .pass-tag.green {
+        background: rgba(0, 156, 59, 0.14);
+        color: #0f6a34;
+      }
+
+      .pass-body {
         display: grid;
+        grid-template-columns: 1.25fr 0.75fr;
+        gap: 18px;
+        padding: 20px 22px 22px;
+      }
+
+      .info-cluster {
+        display: grid;
+        gap: 14px;
+      }
+
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 12px;
       }
 
-      .mini-label {
-        margin: 0;
-        font-size: 0.86rem;
-        font-weight: 700;
-        letter-spacing: 0.04em;
+      .info-card {
+        padding: 14px;
+        border-radius: 18px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.72);
+      }
+
+      .info-card .label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 0.76rem;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
         color: var(--muted);
       }
 
-      .url-actions {
+      .info-card strong {
+        display: block;
+        font-size: 1rem;
+        line-height: 1.45;
+      }
+
+      .feed-strip {
+        display: grid;
+        gap: 12px;
+      }
+
+      .feed-url {
+        padding: 14px;
+        border-radius: 18px;
+        border: 1px solid var(--line);
+        background: #f8fafb;
+        font-family: "IBM Plex Sans", sans-serif;
+      }
+
+      .feed-url .label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .feed-url code {
+        display: block;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        word-break: break-all;
+      }
+
+      .feed-actions {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-        margin-top: 10px;
-      }
-
-      .button.inline {
-        padding: 10px 14px;
-      }
-
-      .note {
         margin-top: 12px;
-        padding: 12px 14px;
-        border-left: 4px solid var(--accent-2);
-        background: rgba(231, 111, 81, 0.08);
-        border-radius: 8px;
       }
 
-      .colors {
+      .guide {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 12px;
-        margin-top: 12px;
+        gap: 14px;
       }
 
-      .color-chip {
+      .guide-card {
+        padding: 18px;
+        border-radius: 22px;
+        background: linear-gradient(180deg, rgba(16,38,63,0.96), rgba(11,26,44,0.96));
+        color: white;
+        border: 1px solid rgba(255,255,255,0.08);
+        box-shadow: var(--shadow);
+      }
+
+      .guide-card h3 {
+        margin: 0 0 10px;
+        font-family: "Oswald", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .guide-card p,
+      .guide-card li {
+        color: rgba(255,255,255,0.78);
+      }
+
+      .guide-card ol {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      .guide-card li + li {
+        margin-top: 8px;
+      }
+
+      .feedback {
+        min-height: 1.4em;
+        margin-top: 10px;
+        color: var(--gold);
+        font-weight: 700;
+      }
+
+      .color-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .color-card {
         display: flex;
         align-items: center;
         gap: 12px;
         padding: 14px;
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        background: #fff;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.08);
       }
 
       .swatch {
-        width: 28px;
-        height: 28px;
+        width: 32px;
+        height: 32px;
         border-radius: 999px;
-        border: 1px solid rgba(17, 32, 59, 0.14);
-        flex: 0 0 28px;
+        border: 1px solid rgba(255,255,255,0.16);
+        flex: 0 0 32px;
       }
 
       .swatch.green {
-        background: #009C3B;
+        background: #009c3b;
       }
 
       .swatch.yellow {
-        background: #FFDF00;
+        background: #ffdf00;
       }
 
-      .tile {
-        padding: 16px;
+      .guide-note {
+        padding: 12px 14px;
         border-radius: 14px;
-        border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.66);
+        background: rgba(255,255,255,0.08);
+        border-left: 4px solid var(--gold);
       }
 
-      .tile strong {
+      .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .mini-tile {
+        padding: 16px;
+        border-radius: 20px;
+        background: rgba(255,255,255,0.78);
+        border: 1px solid rgba(255,255,255,0.58);
+        box-shadow: var(--shadow);
+      }
+
+      .mini-tile .label {
         display: block;
         margin-bottom: 8px;
+        font-size: 0.76rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--muted);
       }
 
-      code {
-        font-family: "SFMono-Regular", Consolas, monospace;
-        font-size: 0.95em;
+      .mini-tile strong {
+        display: block;
+        font-family: "Oswald", sans-serif;
+        font-size: 1.18rem;
+        line-height: 1.1;
+        text-transform: uppercase;
+      }
+
+      .footer-note {
+        margin-top: 16px;
+        font-size: 0.9rem;
+        color: rgba(255,255,255,0.62);
+      }
+
+      @media (max-width: 1080px) {
+        .layout {
+          grid-template-columns: 1fr;
+        }
+
+        .hero {
+          position: relative;
+          top: auto;
+        }
+
+        .topbar {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 760px) {
+        .shell {
+          width: min(100% - 20px, 100%);
+          margin: 10px auto 30px;
+        }
+
+        .hero,
+        .match-pass,
+        .guide-card,
+        .mini-tile {
+          border-radius: 24px;
+        }
+
+        .pass-header,
+        .pass-body {
+          grid-template-columns: 1fr;
+        }
+
+        .info-grid,
+        .mini-grid,
+        .color-grid,
+        .hero-grid {
+          grid-template-columns: 1fr;
+        }
+
+        h1 {
+          font-size: 2.9rem;
+        }
+
+        .pass-title {
+          font-size: 1.75rem;
+        }
       }
     </style>
   </head>
   <body>
-    <main>
-      <section class="card">
-        <h1>Copa do Mundo 2026 em formato de calendário</h1>
-        <p>
-          Este projeto publica os jogos oficiais da FIFA 2026 em <code>JSON</code>,
-          <code>CSV</code> e <code>ICS</code>, com horário convertido para
-          <code>America/Sao_Paulo</code>.
-        </p>
-        <div class="actions">
-          <a class="button primary" href="./output/world_cup_2026_fixtures_v2.ics">Baixar o ICS</a>
-          <a class="button secondary" href="webcal://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_v2.ics">Abrir em apps compatíveis com webcal</a>
-          <a class="button secondary" href="./output/world_cup_2026_fixtures.json">Ver JSON</a>
-          <a class="button secondary" href="./output/world_cup_2026_fixtures.csv">Ver CSV</a>
-        </div>
-        <section class="subscribe">
-          <h2>Assinar um único calendário</h2>
-          <p>
-            Esta é a opção simples: todos os jogos em um único feed, com títulos
-            mais legíveis, bandeirinha do Brasil nos jogos do Brasil e descrição
-            enxuta.
-          </p>
-          <div class="stack">
-            <p class="mini-label">URL do feed completo</p>
-            <div class="url-box" id="icsUrl">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_v2.ics</div>
-            <div class="url-actions">
-              <button class="button secondary inline copy-url" data-url="https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_v2.ics" type="button">Copiar URL</button>
-              <a class="button secondary inline" href="webcal://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_v2.ics">Abrir via webcal</a>
-            </div>
-          </div>
-          <div class="copy-feedback" id="copyFeedback"></div>
-          <ol class="steps">
-            <li>No Google Agenda, abra <strong>Adicionar calendário &gt; Por URL</strong>.</li>
-            <li>Cole a URL acima.</li>
-            <li>Pronto: quando este mesmo link for atualizado, o Google tende a puxar as mudanças depois.</li>
-          </ol>
-        </section>
-        <section class="subscribe">
-          <h2>Assinar com cores separadas</h2>
-          <p>
-            Se você quiser destacar os jogos do Brasil sem depender de mágica do
-            Google, a saída limpa é usar dois calendários.
-          </p>
-          <div class="note">
-            O Google Agenda lida melhor com cor por <strong>calendário</strong> do
-            que por <strong>evento</strong> em feeds assinados. Por isso os jogos
-            do Brasil ganharam um feed separado.
-          </div>
-          <div class="stack">
-            <p class="mini-label">Calendário geral sem jogos do Brasil</p>
-            <div class="url-box">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_sem_brasil_v2.ics</div>
-            <div class="url-actions">
-              <button class="button secondary inline copy-url" data-url="https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_sem_brasil_v2.ics" type="button">Copiar URL</button>
-            </div>
-            <p>Cor sugerida: verde do Brasil.</p>
-          </div>
-          <div class="stack" style="margin-top:16px;">
-            <p class="mini-label">Calendário só com jogos do Brasil</p>
-            <div class="url-box">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_brasil_v2.ics</div>
-            <div class="url-actions">
-              <button class="button secondary inline copy-url" data-url="https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_brasil_v2.ics" type="button">Copiar URL</button>
-            </div>
-            <p>Cor sugerida: amarelo do Brasil.</p>
-          </div>
-          <div class="colors">
-            <div class="color-chip">
-              <span class="swatch green"></span>
-              <div>
-                <strong>Brasil verde</strong><br>
-                <code>#009C3B</code>
-              </div>
-            </div>
-            <div class="color-chip">
-              <span class="swatch yellow"></span>
-              <div>
-                <strong>Brasil amarelo</strong><br>
-                <code>#FFDF00</code>
-              </div>
-            </div>
-          </div>
-          <ol class="steps">
-            <li>Adicione os dois links acima como calendários separados.</li>
-            <li>No Google Agenda, passe o mouse no calendário e clique nos três pontinhos.</li>
-            <li>Escolha uma cor pronta ou clique em <strong>+</strong> para usar a cor personalizada.</li>
-            <li>Use <code>#009C3B</code> no calendário geral e <code>#FFDF00</code> no calendário do Brasil.</li>
-          </ol>
-        </section>
-        <div class="grid">
-          <div class="tile">
-            <strong>Fonte oficial</strong>
-            API pública da FIFA descoberta pela própria página de fixtures.
-          </div>
-          <div class="tile">
-            <strong>Atualização</strong>
-            O arquivo <code>.ics</code> pode ser regenerado e republicado no mesmo URL.
-          </div>
-          <div class="tile">
-            <strong>Uso no Google Agenda</strong>
-            Importar copia. Assinar por URL acompanha mudanças depois.
-          </div>
-        </div>
+    <div class="shell">
+      <section class="topbar">
+        <article class="ticker">
+          <span class="ticker-label">Status da transmissão</span>
+          <strong class="ticker-value">Feeds v2 no ar</strong>
+        </article>
+        <article class="ticker">
+          <span class="ticker-label">Carga oficial</span>
+          <strong class="ticker-value">104 jogos confirmados</strong>
+        </article>
+        <article class="ticker">
+          <span class="ticker-label">Fuso final</span>
+          <strong class="ticker-value">Brasília, sem adivinhação</strong>
+        </article>
       </section>
-    </main>
+
+      <section class="layout">
+        <aside class="hero">
+          <span class="eyebrow">Central de assinatura</span>
+          <h1>Colocamos a Copa no seu calendário sem novela.</h1>
+          <p class="hero-copy">
+            Esta página não tenta ser “fofa”. Ela existe para te colocar em campo
+            rápido: assinar o feed certo, entender o porquê dos calendários
+            separados e não cair nas pegadinhas do Google.
+          </p>
+
+          <div class="hero-grid">
+            <article class="hero-stat">
+              <strong>1 feed</strong>
+              <span>Para quem só quer tudo funcionando.</span>
+            </article>
+            <article class="hero-stat">
+              <strong>2 feeds</strong>
+              <span>Para destacar o Brasil com cor própria.</span>
+            </article>
+            <article class="hero-stat">
+              <strong>v2</strong>
+              <span>URL nova para atropelar cache velho.</span>
+            </article>
+            <article class="hero-stat">
+              <strong>🇧🇷</strong>
+              <span>Jogos do Brasil marcados no título.</span>
+            </article>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#calendario-unico">Quero o jeito simples</a>
+            <a class="button secondary" href="#calendarios-separados">Quero separar por cor</a>
+          </div>
+        </aside>
+
+        <main class="board">
+          <section class="match-pass" id="calendario-unico">
+            <div class="pass-header">
+              <div>
+                <h2 class="pass-title">Um calendário só, sem firula.</h2>
+                <p class="pass-subtitle">
+                  Todos os jogos em um único feed. Os títulos já vêm mais úteis
+                  no celular, a descrição foi limpa e os jogos do Brasil ganham a
+                  bandeira no começo.
+                </p>
+              </div>
+              <span class="pass-tag gold">Modo direto</span>
+            </div>
+
+            <div class="pass-body">
+              <div class="info-cluster">
+                <div class="info-grid">
+                  <article class="info-card">
+                    <span class="label">Título agora</span>
+                    <strong>México x África do Sul - Jogo 1 - Copa do Mundo 2026</strong>
+                  </article>
+                  <article class="info-card">
+                    <span class="label">Brasil destacado</span>
+                    <strong>🇧🇷 Brasil x Marrocos - Jogo 7 - Copa do Mundo 2026</strong>
+                  </article>
+                  <article class="info-card">
+                    <span class="label">Descrição</span>
+                    <strong>Fase, horário de Brasília, local e fonte oficial. Só o que interessa.</strong>
+                  </article>
+                  <article class="info-card">
+                    <span class="label">Quando usar</span>
+                    <strong>Quando você quer todos os jogos em um único calendário e pronto.</strong>
+                  </article>
+                </div>
+
+                <div class="feed-url">
+                  <span class="label">URL do feed completo v2</span>
+                  <code id="icsUrl">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_v2.ics</code>
+                  <div class="feed-actions">
+                    <button class="button dark copy-url" data-url="https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_v2.ics" type="button">Copiar URL</button>
+                    <a class="button ghost" href="webcal://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_v2.ics">Abrir via webcal</a>
+                  </div>
+                </div>
+              </div>
+
+              <aside class="guide">
+                <article class="guide-card">
+                  <h3>Como assinar</h3>
+                  <ol>
+                    <li>Abra o Google Agenda.</li>
+                    <li>Vá em <strong>Adicionar calendário &gt; Por URL</strong>.</li>
+                    <li>Cole o link acima.</li>
+                    <li>Espere alguns minutos se o Google resolver fazer charme.</li>
+                  </ol>
+                  <div class="feedback" id="copyFeedback"></div>
+                </article>
+              </aside>
+            </div>
+          </section>
+
+          <section class="match-pass" id="calendarios-separados">
+            <div class="pass-header">
+              <div>
+                <h2 class="pass-title">Dois calendários, duas cores, menos gambiarra.</h2>
+                <p class="pass-subtitle">
+                  O Google Agenda trabalha melhor com cor por calendário do que por
+                  evento em feeds assinados. Então, em vez de brigar com ele, nós
+                  separamos os jogos do Brasil num feed próprio.
+                </p>
+              </div>
+              <span class="pass-tag green">Modo tático</span>
+            </div>
+
+            <div class="pass-body">
+              <div class="info-cluster">
+                <div class="feed-strip">
+                  <article class="feed-url">
+                    <span class="label">Calendário geral sem jogos do Brasil</span>
+                    <code>https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_sem_brasil_v2.ics</code>
+                    <div class="feed-actions">
+                      <button class="button dark copy-url" data-url="https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_sem_brasil_v2.ics" type="button">Copiar URL</button>
+                    </div>
+                  </article>
+
+                  <article class="feed-url">
+                    <span class="label">Calendário só com jogos do Brasil</span>
+                    <code>https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_brasil_v2.ics</code>
+                    <div class="feed-actions">
+                      <button class="button dark copy-url" data-url="https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_brasil_v2.ics" type="button">Copiar URL</button>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="info-grid">
+                  <article class="info-card">
+                    <span class="label">Por que separar</span>
+                    <strong>Porque o Google deixa a cor bem mais estável por calendário do que por evento.</strong>
+                  </article>
+                  <article class="info-card">
+                    <span class="label">Resultado</span>
+                    <strong>Você pode deixar o geral discreto e o Brasil chamando atenção sem bagunçar tudo.</strong>
+                  </article>
+                </div>
+              </div>
+
+              <aside class="guide">
+                <article class="guide-card">
+                  <h3>Tutorial de cor</h3>
+                  <ol>
+                    <li>Adicione os dois feeds como calendários separados.</li>
+                    <li>No Google Agenda, passe o mouse no nome do calendário.</li>
+                    <li>Clique nos três pontinhos.</li>
+                    <li>Escolha uma cor pronta ou abra a cor personalizada.</li>
+                  </ol>
+
+                  <div class="color-grid">
+                    <div class="color-card">
+                      <span class="swatch green"></span>
+                      <div>
+                        <strong>Brasil verde</strong><br>
+                        <code>#009C3B</code>
+                      </div>
+                    </div>
+                    <div class="color-card">
+                      <span class="swatch yellow"></span>
+                      <div>
+                        <strong>Brasil amarelo</strong><br>
+                        <code>#FFDF00</code>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="guide-note">
+                    Sugestão prática: feed geral em verde e feed do Brasil em amarelo.
+                  </div>
+                </article>
+              </aside>
+            </div>
+          </section>
+
+          <section class="mini-grid">
+            <article class="mini-tile">
+              <span class="label">Origem</span>
+              <strong>API oficial da FIFA</strong>
+            </article>
+            <article class="mini-tile">
+              <span class="label">Atualização</span>
+              <strong>Mesmo link, arquivo renovado</strong>
+            </article>
+            <article class="mini-tile">
+              <span class="label">Pegadinha</span>
+              <strong>O Google às vezes demora, mesmo quando está certo</strong>
+            </article>
+          </section>
+        </main>
+      </section>
+    </div>
+
     <script>
       const feedback = document.getElementById("copyFeedback");
       const copyButtons = document.querySelectorAll(".copy-url");
@@ -332,11 +820,12 @@
       copyButtons.forEach((button) => {
         button.addEventListener("click", async () => {
           const url = button.dataset.url;
+
           try {
             await navigator.clipboard.writeText(url);
             feedback.textContent = "URL copiada. Agora é só colar em 'Adicionar por URL' no Google Agenda.";
           } catch (error) {
-            feedback.textContent = "Não consegui copiar automaticamente. Copie a URL manualmente logo acima.";
+            feedback.textContent = "Falhou a cópia automática. Copie a URL manualmente logo acima.";
           }
         });
       });
