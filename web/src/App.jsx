@@ -209,6 +209,26 @@ function App() {
             </div>
           </div>
         </div>
+
+        <section className="seo-block" aria-labelledby="seo-heading">
+          <h2 id="seo-heading">Calendário da Copa do Mundo 2026 para Google Agenda</h2>
+          <p>
+            Esta página reúne um calendário da Copa do Mundo 2026 em formato ICS para quem quer
+            acompanhar todos os jogos no Google Agenda, assinar por URL ou baixar o arquivo para
+            uso manual.
+          </p>
+          <p>
+            Se a sua busca é por <strong>calendário da Copa 2026</strong>, <strong>agenda da Copa
+            do Mundo 2026</strong>, <strong>ICS da Copa 2026</strong> ou <strong>jogos do Brasil no
+            Google Agenda</strong>, é exatamente isso que está publicado aqui, com atualização a
+            partir da fonte oficial da FIFA e horários ajustados para Brasília.
+          </p>
+          <p>
+            O feed completo serve para quem quer um calendário único. Os feeds separados servem
+            para quem quer destacar os jogos do Brasil com outra cor sem fazer malabarismo no
+            Google Agenda.
+          </p>
+        </section>
       </div>
     </div>
   );

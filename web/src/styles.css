@@ -428,6 +428,30 @@ a {
   letter-spacing: 0.04em;
 }
 
+.seo-block {
+  padding: 4px 2px 0;
+  color: var(--muted);
+}
+
+.seo-block h2 {
+  margin: 0 0 12px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+
+.seo-block p {
+  margin: 0 0 12px;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.seo-block strong {
+  color: var(--ink);
+}
+
 @media (max-width: 600px) {
   .app-shell {
     width: calc(100% - 20px);

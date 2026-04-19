@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/sitemap.xml
