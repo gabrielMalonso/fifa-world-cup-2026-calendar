@@ -47,7 +47,12 @@ function FeedRow({ title, caption, url, tone = "neutral", actions = [] }) {
         )}
         {actions.map((action) =>
           action.href ? (
-            <a key={action.label} className="button ghost" href={action.href}>
+            <a
+              key={action.label}
+              className="button ghost"
+              href={action.href}
+              download={action.download}
+            >
               {action.label}
             </a>
           ) : null
@@ -71,6 +76,7 @@ function TabButton({ active, onClick, children }) {
 
 function App() {
   const [tab, setTab] = React.useState("single");
+  const fullDownloadName = "world-cup-2026-fixtures.ics";
 
   return (
     <div className="app-shell">
@@ -100,7 +106,10 @@ function App() {
                 caption="Todos os jogos em um único calendário."
                 url={FEEDS.full}
                 tone="ink"
-                actions={[{ label: "webcal", href: WEBcal.full }]}
+                actions={[
+                  { label: "Baixar ICS", href: FEEDS.full, download: fullDownloadName },
+                  { label: "webcal", href: WEBcal.full }
+                ]}
               />
             ) : (
               <div className="split-feeds">
