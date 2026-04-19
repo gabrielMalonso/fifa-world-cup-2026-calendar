@@ -138,6 +138,72 @@
         font-weight: 700;
       }
 
+      .stack {
+        display: grid;
+        gap: 12px;
+      }
+
+      .mini-label {
+        margin: 0;
+        font-size: 0.86rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .url-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .button.inline {
+        padding: 10px 14px;
+      }
+
+      .note {
+        margin-top: 12px;
+        padding: 12px 14px;
+        border-left: 4px solid var(--accent-2);
+        background: rgba(231, 111, 81, 0.08);
+        border-radius: 8px;
+      }
+
+      .colors {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 12px;
+        margin-top: 12px;
+      }
+
+      .color-chip {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: #fff;
+      }
+
+      .swatch {
+        width: 28px;
+        height: 28px;
+        border-radius: 999px;
+        border: 1px solid rgba(17, 32, 59, 0.14);
+        flex: 0 0 28px;
+      }
+
+      .swatch.green {
+        background: #009C3B;
+      }
+
+      .swatch.yellow {
+        background: #FFDF00;
+      }
+
       .tile {
         padding: 16px;
         border-radius: 14px;
@@ -167,18 +233,25 @@
         </p>
         <div class="actions">
           <a class="button primary" href="./output/world_cup_2026_fixtures.ics">Baixar o ICS</a>
-          <button class="button secondary" id="copyIcsUrl" type="button">Copiar URL para assinatura</button>
           <a class="button secondary" href="webcal://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics">Abrir em apps compatíveis com webcal</a>
           <a class="button secondary" href="./output/world_cup_2026_fixtures.json">Ver JSON</a>
           <a class="button secondary" href="./output/world_cup_2026_fixtures.csv">Ver CSV</a>
         </div>
         <section class="subscribe">
-          <h2>Assinatura de verdade</h2>
+          <h2>Assinar um único calendário</h2>
           <p>
-            Para o Google Agenda acompanhar futuras atualizações, você precisa
-            assinar a URL do calendário. Baixar o arquivo sozinho não basta.
+            Esta é a opção simples: todos os jogos em um único feed, com títulos
+            mais legíveis, bandeirinha do Brasil nos jogos do Brasil e descrição
+            enxuta.
           </p>
-          <div class="url-box" id="icsUrl">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics</div>
+          <div class="stack">
+            <p class="mini-label">URL do feed completo</p>
+            <div class="url-box" id="icsUrl">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics</div>
+            <div class="url-actions">
+              <button class="button secondary inline copy-url" data-url="https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics" type="button">Copiar URL</button>
+              <a class="button secondary inline" href="webcal://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics">Abrir via webcal</a>
+            </div>
+          </div>
           <div class="copy-feedback" id="copyFeedback"></div>
           <ol class="steps">
             <li>No Google Agenda, abra <strong>Adicionar calendário &gt; Por URL</strong>.</li>
@@ -187,15 +260,54 @@
           </ol>
         </section>
         <section class="subscribe">
-          <h2>Esquema de cores: verde geral + amarelo Brasil</h2>
+          <h2>Assinar com cores separadas</h2>
           <p>
-            Em calendário assinado, o Google Agenda trabalha melhor com cor por
-            calendário, não por evento. Então o truque limpo é assinar dois feeds.
+            Se você quiser destacar os jogos do Brasil sem depender de mágica do
+            Google, a saída limpa é usar dois calendários.
           </p>
-          <div class="url-box">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_sem_brasil.ics</div>
-          <p>Use este em verde, de preferência <strong>manjericão</strong>.</p>
-          <div class="url-box">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_brasil.ics</div>
-          <p>Use este em amarelo para destacar os jogos do Brasil.</p>
+          <div class="note">
+            O Google Agenda lida melhor com cor por <strong>calendário</strong> do
+            que por <strong>evento</strong> em feeds assinados. Por isso os jogos
+            do Brasil ganharam um feed separado.
+          </div>
+          <div class="stack">
+            <p class="mini-label">Calendário geral sem jogos do Brasil</p>
+            <div class="url-box">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_sem_brasil.ics</div>
+            <div class="url-actions">
+              <button class="button secondary inline copy-url" data-url="https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_sem_brasil.ics" type="button">Copiar URL</button>
+            </div>
+            <p>Cor sugerida: verde do Brasil.</p>
+          </div>
+          <div class="stack" style="margin-top:16px;">
+            <p class="mini-label">Calendário só com jogos do Brasil</p>
+            <div class="url-box">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_brasil.ics</div>
+            <div class="url-actions">
+              <button class="button secondary inline copy-url" data-url="https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_brasil.ics" type="button">Copiar URL</button>
+            </div>
+            <p>Cor sugerida: amarelo do Brasil.</p>
+          </div>
+          <div class="colors">
+            <div class="color-chip">
+              <span class="swatch green"></span>
+              <div>
+                <strong>Brasil verde</strong><br>
+                <code>#009C3B</code>
+              </div>
+            </div>
+            <div class="color-chip">
+              <span class="swatch yellow"></span>
+              <div>
+                <strong>Brasil amarelo</strong><br>
+                <code>#FFDF00</code>
+              </div>
+            </div>
+          </div>
+          <ol class="steps">
+            <li>Adicione os dois links acima como calendários separados.</li>
+            <li>No Google Agenda, passe o mouse no calendário e clique nos três pontinhos.</li>
+            <li>Escolha uma cor pronta ou clique em <strong>+</strong> para usar a cor personalizada.</li>
+            <li>Use <code>#009C3B</code> no calendário geral e <code>#FFDF00</code> no calendário do Brasil.</li>
+          </ol>
         </section>
         <div class="grid">
           <div class="tile">
@@ -214,17 +326,19 @@
       </section>
     </main>
     <script>
-      const icsUrl = "https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics";
-      const copyButton = document.getElementById("copyIcsUrl");
       const feedback = document.getElementById("copyFeedback");
+      const copyButtons = document.querySelectorAll(".copy-url");
 
-      copyButton.addEventListener("click", async () => {
-        try {
-          await navigator.clipboard.writeText(icsUrl);
-          feedback.textContent = "URL copiada. Agora é só colar em 'Adicionar por URL' no Google Agenda.";
-        } catch (error) {
-          feedback.textContent = "Não consegui copiar automaticamente. Copie a URL manualmente logo acima.";
-        }
+      copyButtons.forEach((button) => {
+        button.addEventListener("click", async () => {
+          const url = button.dataset.url;
+          try {
+            await navigator.clipboard.writeText(url);
+            feedback.textContent = "URL copiada. Agora é só colar em 'Adicionar por URL' no Google Agenda.";
+          } catch (error) {
+            feedback.textContent = "Não consegui copiar automaticamente. Copie a URL manualmente logo acima.";
+          }
+        });
       });
     </script>
   </body>

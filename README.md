@@ -129,7 +129,7 @@ Se você ignorar isso e confiar cegamente em `LocalDate`, vai fabricar horário 
 Cada partida vira um `VEVENT` com:
 
 - `UID` estável por jogo
-- `SUMMARY` no formato `Copa do Mundo 2026 - Jogo N - Time A x Time B`
+- `SUMMARY` no formato `Time A x Time B - Jogo N - Copa do Mundo 2026`
 - jogos do Brasil destacados com `🇧🇷` no título
 - `DTSTART` e `DTEND` em `America/Sao_Paulo`
 - `LOCATION` com estádio, cidade e país
@@ -146,9 +146,14 @@ Estratégia prática:
 
 | Feed | Uso sugerido |
 | --- | --- |
-| `world_cup_2026_fixtures_sem_brasil.ics` | assinar e pintar de verde, como `manjericão` |
+| `world_cup_2026_fixtures_sem_brasil.ics` | assinar e pintar de verde |
 | `world_cup_2026_fixtures_brasil.ics` | assinar e pintar de amarelo |
 | `world_cup_2026_fixtures.ics` | feed completo tradicional, se você preferir um calendário só |
+
+Cores sugeridas:
+
+- verde do Brasil: `#009C3B`
+- amarelo do Brasil: `#FFDF00`
 
 ## Limitação importante
 

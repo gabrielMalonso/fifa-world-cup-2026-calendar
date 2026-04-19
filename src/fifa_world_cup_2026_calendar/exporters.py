@@ -63,12 +63,10 @@ def _format_brt_display(value: str) -> str:
 def _build_summary(fixture: dict[str, Any]) -> str:
     match_number = fixture.get("fifa_match_number")
     prefix = "🇧🇷 " if fixture.get("is_brazil_match") else ""
+    teams = f"{fixture['home_team']} x {fixture['away_team']}"
     if match_number is not None:
-        return (
-            f"{prefix}Copa do Mundo 2026 - Jogo {match_number} - "
-            f"{fixture['home_team']} x {fixture['away_team']}"
-        )
-    return f"{prefix}Copa do Mundo 2026 - {fixture['home_team']} x {fixture['away_team']}"
+        return f"{prefix}{teams} - Jogo {match_number} - Copa do Mundo 2026"
+    return f"{prefix}{teams} - Copa do Mundo 2026"
 
 
 def _build_description(fixture: dict[str, Any]) -> str:
