@@ -77,6 +77,40 @@ function TabButton({ active, onClick, children }) {
 function App() {
   const [tab, setTab] = React.useState("single");
   const fullDownloadName = "world-cup-2026-fixtures.ics";
+  const panelRef = React.useRef(null);
+  const [panelHeight, setPanelHeight] = React.useState("auto");
+  const [panelReady, setPanelReady] = React.useState(false);
+
+  const syncPanelHeight = React.useCallback(() => {
+    if (!panelRef.current) {
+      return;
+    }
+
+    setPanelHeight(`${panelRef.current.scrollHeight + 8}px`);
+  }, []);
+
+  React.useLayoutEffect(() => {
+    if (!panelRef.current) {
+      return;
+    }
+
+    syncPanelHeight();
+    setPanelReady(true);
+  }, [syncPanelHeight, tab]);
+
+  React.useEffect(() => {
+    if (!panelRef.current || typeof ResizeObserver === "undefined") {
+      return undefined;
+    }
+
+    const observer = new ResizeObserver(() => {
+      syncPanelHeight();
+    });
+
+    observer.observe(panelRef.current);
+
+    return () => observer.disconnect();
+  }, [syncPanelHeight, tab]);
 
   return (
     <div className="app-shell">
@@ -99,41 +133,46 @@ function App() {
             </TabButton>
           </div>
 
-          <div className={`tab-panel tab-panel--${tab}`}>
-            {tab === "single" ? (
-              <FeedRow
-                title="Feed completo"
-                caption="Todos os jogos em um único calendário."
-                url={FEEDS.full}
-                tone="ink"
-                actions={[
-                  { label: "Baixar ICS", href: FEEDS.full, download: fullDownloadName },
-                  { label: "webcal", href: WEBcal.full }
-                ]}
-              />
-            ) : (
-              <div className="split-feeds">
+          <div
+            className={`tab-panel-shell ${panelReady ? "tab-panel-shell--ready" : ""}`}
+            style={{ height: panelHeight }}
+          >
+            <div key={tab} ref={panelRef} className={`tab-panel tab-panel--${tab}`}>
+              {tab === "single" ? (
                 <FeedRow
-                  title="Geral"
-                  caption="Todos os jogos, exceto os do Brasil."
-                  url={FEEDS.noBrazil}
-                  tone="green"
+                  title="Feed completo"
+                  caption="Todos os jogos em um único calendário."
+                  url={FEEDS.full}
+                  tone="ink"
+                  actions={[
+                    { label: "Baixar ICS", href: FEEDS.full, download: fullDownloadName },
+                    { label: "webcal", href: WEBcal.full }
+                  ]}
                 />
-                <FeedRow
-                  title="Brasil"
-                  caption="Apenas jogos da seleção."
-                  url={FEEDS.brazil}
-                  tone="yellow"
-                />
-                <div className="color-hint">
-                  <strong>Cores recomendadas:</strong>
-                  <span className="color-swatch color-swatch--green" />
-                  <span><code>#009C3B</code></span>
-                  <span className="color-swatch color-swatch--yellow" />
-                  <span><code>#FFDF00</code></span>
+              ) : (
+                <div className="split-feeds">
+                  <FeedRow
+                    title="Geral"
+                    caption="Todos os jogos, exceto os do Brasil."
+                    url={FEEDS.noBrazil}
+                    tone="green"
+                  />
+                  <FeedRow
+                    title="Brasil"
+                    caption="Apenas jogos da seleção."
+                    url={FEEDS.brazil}
+                    tone="yellow"
+                  />
+                  <div className="color-hint">
+                    <strong>Cores recomendadas:</strong>
+                    <span className="color-swatch color-swatch--green" />
+                    <span><code>#009C3B</code></span>
+                    <span className="color-swatch color-swatch--yellow" />
+                    <span><code>#FFDF00</code></span>
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
         </div>
 
