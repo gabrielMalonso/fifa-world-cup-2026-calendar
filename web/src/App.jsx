@@ -57,10 +57,24 @@ function FeedRow({ title, caption, url, tone = "neutral", actions = [] }) {
   );
 }
 
+function TabButton({ active, onClick, children }) {
+  return (
+    <button
+      type="button"
+      className={`tab-button ${active ? "tab-button--active" : ""}`}
+      onClick={onClick}
+    >
+      {children}
+    </button>
+  );
+}
+
 function App() {
+  const [tab, setTab] = React.useState("single");
+
   return (
     <div className="app-shell">
-      <div className="page-grid">
+      <div className="single-column">
         <header className="hero">
           <div className="hero__eyebrow">Calendário da Copa 2026</div>
           <h1>Siga os jogos no seu Google Agenda</h1>
@@ -69,75 +83,68 @@ function App() {
           </p>
         </header>
 
-        <main className="content">
-          <section className="section" id="feed-unico">
-            <div className="section__header">
-              <div>
-                <span className="section__kicker">Feed único</span>
-                <h2>Todos os jogos</h2>
-              </div>
-              <p>Um calendário com os 104 jogos. Jogos do Brasil marcados com flag.</p>
-            </div>
+        <div className="card">
+          <div className="tabs">
+            <TabButton active={tab === "single"} onClick={() => setTab("single")}>
+              Calendário com cor única
+            </TabButton>
+            <TabButton active={tab === "split"} onClick={() => setTab("split")}>
+              Calendários com cores separadas
+            </TabButton>
+          </div>
 
-            <FeedRow
-              title="Feed completo"
-              caption="Todos os jogos em um único calendário."
-              url={FEEDS.full}
-              tone="ink"
-              actions={[{ label: "webcal", href: WEBcal.full }]}
-            />
-          </section>
-
-          <section className="section section--split" id="feeds-separados">
-            <div className="section__header">
-              <div>
-                <span className="section__kicker">Feeds separados</span>
-                <h2>Controle de cores</h2>
-              </div>
-              <p>Dois calendários: um geral e um só com Brasil. Aplique cores diferentes.</p>
-            </div>
-
-            <div className="split-rows">
+          <div className={`tab-panel tab-panel--${tab}`}>
+            {tab === "single" ? (
               <FeedRow
-                title="Geral"
-                caption="Todos os jogos, exceto os do Brasil."
-                url={FEEDS.noBrazil}
-                tone="green"
+                title="Feed completo"
+                caption="Todos os jogos em um único calendário."
+                url={FEEDS.full}
+                tone="ink"
+                actions={[{ label: "webcal", href: WEBcal.full }]}
               />
+            ) : (
+              <div className="split-feeds">
+                <FeedRow
+                  title="Geral"
+                  caption="Todos os jogos, exceto os do Brasil."
+                  url={FEEDS.noBrazil}
+                  tone="green"
+                />
+                <FeedRow
+                  title="Brasil"
+                  caption="Apenas jogos da seleção."
+                  url={FEEDS.brazil}
+                  tone="yellow"
+                />
+                <div className="color-hint">
+                  <strong>Cores recomendadas:</strong>
+                  <span className="color-swatch color-swatch--green" />
+                  <span><code>#009C3B</code></span>
+                  <span className="color-swatch color-swatch--yellow" />
+                  <span><code>#FFDF00</code></span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
 
-              <FeedRow
-                title="Brasil"
-                caption="Apenas jogos da seleção."
-                url={FEEDS.brazil}
-                tone="yellow"
-              />
+        <div className="card">
+          <h2>Como usar no Google Agenda</h2>
+          <div className="steps-list">
+            <div className="step">
+              <span className="step__number">1</span>
+              <p>Abra o Google Agenda</p>
             </div>
-          </section>
-
-          <section className="section section--steps">
-            <div className="section__header">
-              <div>
-                <span className="section__kicker">Como usar</span>
-                <h2>Assinatura</h2>
-              </div>
+            <div className="step">
+              <span className="step__number">2</span>
+              <p>Configurações → Adicionar calendários → Por URL</p>
             </div>
-
-            <div className="steps-list">
-              <div className="step">
-                <span className="step__number">1</span>
-                <p>Abra o Google Agenda</p>
-              </div>
-              <div className="step">
-                <span className="step__number">2</span>
-                <p>Configurações → Adicionar calendários → Por URL</p>
-              </div>
-              <div className="step">
-                <span className="step__number">3</span>
-                <p>Cole a URL do feed</p>
-              </div>
+            <div className="step">
+              <span className="step__number">3</span>
+              <p>Cole a URL do feed</p>
             </div>
-          </section>
-        </main>
+          </div>
+        </div>
       </div>
     </div>
   );
