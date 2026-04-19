@@ -8,7 +8,9 @@ Pipeline local, reproduzível e sem firula para puxar os jogos oficiais da FIFA 
 | --- | --- | --- |
 | JSON | `output/world_cup_2026_fixtures.json` | Base auditável e completa |
 | CSV | `output/world_cup_2026_fixtures.csv` | Planilha, filtros, conferência rápida |
-| ICS | `output/world_cup_2026_fixtures.ics` | Importação em calendários |
+| ICS | `output/world_cup_2026_fixtures.ics` | Feed completo |
+| ICS | `output/world_cup_2026_fixtures_sem_brasil.ics` | Feed para usar em verde |
+| ICS | `output/world_cup_2026_fixtures_brasil.ics` | Feed dos jogos do Brasil para usar em amarelo |
 | Diff | `output/world_cup_2026_diff_summary.txt` | Ver o que mudou entre execuções |
 
 ## Fonte oficial usada
@@ -128,9 +130,25 @@ Cada partida vira um `VEVENT` com:
 
 - `UID` estável por jogo
 - `SUMMARY` no formato `Copa do Mundo 2026 - Jogo N - Time A x Time B`
+- jogos do Brasil destacados com `🇧🇷` no título
 - `DTSTART` e `DTEND` em `America/Sao_Paulo`
 - `LOCATION` com estádio, cidade e país
-- `DESCRIPTION` com fase, horário bruto, URL oficial e timestamp de geração
+- `DESCRIPTION` mais limpa, focada em fase, horário de Brasília, local e fonte oficial
+
+## Cores no Google Agenda
+
+Aqui entra uma pegadinha chata do mundo real:
+
+- no Google Agenda assinado por URL, cor costuma funcionar melhor por calendário do que por evento;
+- então, para ter `verde geral + amarelo no Brasil`, o projeto gera feeds separados.
+
+Estratégia prática:
+
+| Feed | Uso sugerido |
+| --- | --- |
+| `world_cup_2026_fixtures_sem_brasil.ics` | assinar e pintar de verde, como `manjericão` |
+| `world_cup_2026_fixtures_brasil.ics` | assinar e pintar de amarelo |
+| `world_cup_2026_fixtures.ics` | feed completo tradicional, se você preferir um calendário só |
 
 ## Limitação importante
 

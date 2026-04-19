@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T20:36:17.448002Z",
+  "generated_at": "2026-04-19T21:43:39.789589Z",
   "source_page_url": "https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "source_api_url": "https://api.fifa.com/api/v3/calendar/matches?language=pt&count=500&idSeason=285023",
   "fixture_count": 104,
@@ -8,6 +8,8 @@
     "json": "/Volumes/SSD1TB/Projetos/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.json",
     "csv": "/Volumes/SSD1TB/Projetos/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.csv",
     "ics": "/Volumes/SSD1TB/Projetos/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics",
+    "ics_brazil": "/Volumes/SSD1TB/Projetos/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_brasil.ics",
+    "ics_non_brazil": "/Volumes/SSD1TB/Projetos/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_sem_brasil.ics",
     "diff_json": "/Volumes/SSD1TB/Projetos/fifa-world-cup-2026-calendar/output/world_cup_2026_diff_summary.json",
     "diff_txt": "/Volumes/SSD1TB/Projetos/fifa-world-cup-2026-calendar/output/world_cup_2026_diff_summary.txt"
   }

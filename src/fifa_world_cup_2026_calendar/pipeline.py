@@ -7,16 +7,21 @@ from pathlib import Path
 from typing import Any
 
 from .config import (
+    BRAZIL_CALENDAR_NAME,
+    BRAZIL_ICS_PATH,
+    BRAZIL_TEAM_NAMES,
     CALENDAR_TZ,
+    FIXTURES_CSV_PATH,
+    FIXTURES_ICS_PATH,
+    FIXTURES_JSON_PATH,
     DEFAULT_MATCH_DURATION,
     DIFF_JSON_PATH,
     DIFF_TXT_PATH,
     COUNTRY_NAMES,
-    FIXTURES_CSV_PATH,
-    FIXTURES_ICS_PATH,
-    FIXTURES_JSON_PATH,
     LOGS_DIR,
     MATCHES_API_URL,
+    NON_BRAZIL_CALENDAR_NAME,
+    NON_BRAZIL_ICS_PATH,
     OUTPUT_DIR,
     RAW_MATCHES_PATH,
     RAW_STAGES_PATH,
@@ -101,6 +106,9 @@ def normalize_fixture(
     source_match_id = str(raw_match["IdMatch"])
     fifa_match_number = raw_match.get("MatchNumber")
     stable_id = _stable_id(fifa_match_number, source_match_id)
+    home_team = _team_name(raw_match.get("Home"), raw_match.get("PlaceHolderA"))
+    away_team = _team_name(raw_match.get("Away"), raw_match.get("PlaceHolderB"))
+    is_brazil_match = home_team in BRAZIL_TEAM_NAMES or away_team in BRAZIL_TEAM_NAMES
 
     stadium = raw_match.get("Stadium") or {}
     venue_country_code = stadium.get("IdCountry")
@@ -112,8 +120,8 @@ def normalize_fixture(
         "fifa_match_number": fifa_match_number,
         "stage": stage_name,
         "group_or_round": group_name or stage_name,
-        "home_team": _team_name(raw_match.get("Home"), raw_match.get("PlaceHolderA")),
-        "away_team": _team_name(raw_match.get("Away"), raw_match.get("PlaceHolderB")),
+        "home_team": home_team,
+        "away_team": away_team,
         "kickoff_source_raw": json.dumps(
             {
                 "Date": raw_match.get("Date"),
@@ -141,6 +149,7 @@ def normalize_fixture(
         "away_team_code": (raw_match.get("Away") or {}).get("Abbreviation"),
         "venue_country_code": venue_country_code,
         "duration_minutes": int(DEFAULT_MATCH_DURATION.total_seconds() // 60),
+        "is_brazil_match": is_brazil_match,
     }
 
 
@@ -277,6 +286,15 @@ def run() -> dict[str, Any]:
     write_csv(FIXTURES_CSV_PATH, fixtures)
     ics_text = write_ics(FIXTURES_ICS_PATH, fixtures)
 
+    brazil_fixtures = [fixture for fixture in fixtures if fixture["is_brazil_match"]]
+    non_brazil_fixtures = [fixture for fixture in fixtures if not fixture["is_brazil_match"]]
+    write_ics(BRAZIL_ICS_PATH, brazil_fixtures, calendar_name=BRAZIL_CALENDAR_NAME)
+    write_ics(
+        NON_BRAZIL_ICS_PATH,
+        non_brazil_fixtures,
+        calendar_name=NON_BRAZIL_CALENDAR_NAME,
+    )
+
     validation_issues = validate_outputs(fixtures, ics_text)
     diff_summary = build_diff_summary(previous_fixtures, fixtures)
     write_json(DIFF_JSON_PATH, diff_summary)
@@ -292,6 +310,8 @@ def run() -> dict[str, Any]:
             "json": str(FIXTURES_JSON_PATH),
             "csv": str(FIXTURES_CSV_PATH),
             "ics": str(FIXTURES_ICS_PATH),
+            "ics_brazil": str(BRAZIL_ICS_PATH),
+            "ics_non_brazil": str(NON_BRAZIL_ICS_PATH),
             "diff_json": str(DIFF_JSON_PATH),
             "diff_txt": str(DIFF_TXT_PATH),
         },
@@ -307,6 +327,8 @@ def main() -> int:
     print(f"JSON: {run_summary['paths']['json']}")
     print(f"CSV: {run_summary['paths']['csv']}")
     print(f"ICS: {run_summary['paths']['ics']}")
+    print(f"ICS Brasil: {run_summary['paths']['ics_brazil']}")
+    print(f"ICS Sem Brasil: {run_summary['paths']['ics_non_brazil']}")
     print(f"Diff: {run_summary['paths']['diff_txt']}")
     if run_summary["validation_issues"]:
         print("Validação: com alertas")

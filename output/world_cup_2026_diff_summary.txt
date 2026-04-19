@@ -2,4 +2,16 @@ Anterior: 104
 Atual: 104
 Novas: 0
 Removidas: 0
-Alteradas: 0
+Alteradas: 104
+
+Alteradas:
+- fifa-wc2026-match-001 | campos: is_brazil_match
+- fifa-wc2026-match-002 | campos: is_brazil_match
+- fifa-wc2026-match-003 | campos: is_brazil_match
+- fifa-wc2026-match-004 | campos: is_brazil_match
+- fifa-wc2026-match-005 | campos: is_brazil_match
+- fifa-wc2026-match-006 | campos: is_brazil_match
+- fifa-wc2026-match-007 | campos: is_brazil_match
+- fifa-wc2026-match-008 | campos: is_brazil_match
+- fifa-wc2026-match-009 | campos: is_brazil_match
+- fifa-wc2026-match-010 | campos: is_brazil_match

@@ -24,6 +24,8 @@ USER_AGENT = (
 )
 
 CALENDAR_NAME = "Copa do Mundo FIFA 2026"
+NON_BRAZIL_CALENDAR_NAME = "Copa do Mundo FIFA 2026 - Sem jogos do Brasil"
+BRAZIL_CALENDAR_NAME = "Copa do Mundo FIFA 2026 - Jogos do Brasil"
 CALENDAR_TZID = "America/Sao_Paulo"
 CALENDAR_TZ = ZoneInfo(CALENDAR_TZID)
 DEFAULT_MATCH_DURATION = timedelta(hours=3)
@@ -31,6 +33,8 @@ DEFAULT_MATCH_DURATION = timedelta(hours=3)
 FIXTURES_JSON_PATH = OUTPUT_DIR / "world_cup_2026_fixtures.json"
 FIXTURES_CSV_PATH = OUTPUT_DIR / "world_cup_2026_fixtures.csv"
 FIXTURES_ICS_PATH = OUTPUT_DIR / "world_cup_2026_fixtures.ics"
+NON_BRAZIL_ICS_PATH = OUTPUT_DIR / "world_cup_2026_fixtures_sem_brasil.ics"
+BRAZIL_ICS_PATH = OUTPUT_DIR / "world_cup_2026_fixtures_brasil.ics"
 RAW_MATCHES_PATH = OUTPUT_DIR / "world_cup_2026_source_matches_raw.json"
 RAW_STAGES_PATH = OUTPUT_DIR / "world_cup_2026_source_stages_raw.json"
 DIFF_JSON_PATH = OUTPUT_DIR / "world_cup_2026_diff_summary.json"
@@ -42,6 +46,8 @@ COUNTRY_NAMES = {
     "MEX": "México",
     "USA": "Estados Unidos",
 }
+
+BRAZIL_TEAM_NAMES = {"Brasil"}
 
 CSV_FIELD_ORDER = [
     "stable_id",

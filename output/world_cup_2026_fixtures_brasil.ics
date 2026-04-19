@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fifa-world-cup-2026-calendar//ICS Generator//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Copa do Mundo FIFA 2026 - Jogos do Brasil
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VTIMEZONE
+TZID:America/Sao_Paulo
+X-LIC-LOCATION:America/Sao_Paulo
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+TZNAME:BRT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fifa-wc2026-match-007@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T214340Z
+SUMMARY:🇧🇷 Copa do Mundo 2026 - Jogo 7 - Brasil x Marrocos
+DTSTART;TZID=America/Sao_Paulo:20260613T190000
+DTEND;TZID=America/Sao_Paulo:20260613T220000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 13/06/2026 à
+ s 19h00\nLocal: Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados 
+ Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worl
+ dcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-029@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T214340Z
+SUMMARY:🇧🇷 Copa do Mundo 2026 - Jogo 29 - Brasil x Haiti
+DTSTART;TZID=America/Sao_Paulo:20260619T213000
+DTEND;TZID=America/Sao_Paulo:20260620T003000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 19/06/2026 à
+ s 21h30\nLocal: Estádio de Filadélfia\, Filadélfia\, Estados Unidos\nFo
+ nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
+ amexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-049@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T214340Z
+SUMMARY:🇧🇷 Copa do Mundo 2026 - Jogo 49 - Escócia x Brasil
+DTSTART;TZID=America/Sao_Paulo:20260624T190000
+DTEND;TZID=America/Sao_Paulo:20260624T220000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 24/06/2026 à
+ s 19h00\nLocal: Estádio de Miami\, Miami\, Estados Unidos\nFonte oficial:
+  FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
+ 26/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
