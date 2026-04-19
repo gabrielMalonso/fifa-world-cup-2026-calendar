@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Copa do Mundo 2026 Calendar</title>
+    <style>
+      :root {
+        --bg: #f5f1e8;
+        --panel: #fffaf0;
+        --ink: #11203b;
+        --muted: #5b6475;
+        --accent: #0d7c66;
+        --accent-2: #e76f51;
+        --border: #d9cfbf;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top right, rgba(231, 111, 81, 0.18), transparent 30%),
+          radial-gradient(circle at left center, rgba(13, 124, 102, 0.18), transparent 35%),
+          var(--bg);
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 28px;
+        box-shadow: 0 18px 50px rgba(17, 32, 59, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2.2rem, 4vw, 4rem);
+        line-height: 0.96;
+        letter-spacing: -0.03em;
+      }
+
+      p {
+        font-size: 1.06rem;
+        line-height: 1.6;
+        color: var(--muted);
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 28px 0;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 14px 18px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 700;
+        border: 1px solid var(--ink);
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .button.secondary {
+        background: transparent;
+        color: var(--ink);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 14px;
+        margin-top: 24px;
+      }
+
+      .tile {
+        padding: 16px;
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        background: rgba(255, 255, 255, 0.66);
+      }
+
+      .tile strong {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      code {
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 0.95em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <h1>Copa do Mundo 2026 em formato de calendário</h1>
+        <p>
+          Este projeto publica os jogos oficiais da FIFA 2026 em <code>JSON</code>,
+          <code>CSV</code> e <code>ICS</code>, com horário convertido para
+          <code>America/Sao_Paulo</code>.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="./output/world_cup_2026_fixtures.ics">Baixar / assinar o ICS</a>
+          <a class="button secondary" href="./output/world_cup_2026_fixtures.json">Ver JSON</a>
+          <a class="button secondary" href="./output/world_cup_2026_fixtures.csv">Ver CSV</a>
+        </div>
+        <div class="grid">
+          <div class="tile">
+            <strong>Fonte oficial</strong>
+            API pública da FIFA descoberta pela própria página de fixtures.
+          </div>
+          <div class="tile">
+            <strong>Atualização</strong>
+            O arquivo <code>.ics</code> pode ser regenerado e republicado no mesmo URL.
+          </div>
+          <div class="tile">
+            <strong>Uso no Google Agenda</strong>
+            Importar copia. Assinar por URL acompanha mudanças depois.
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
