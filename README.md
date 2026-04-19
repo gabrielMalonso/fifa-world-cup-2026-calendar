@@ -9,8 +9,11 @@ Pipeline local, reproduzível e sem firula para puxar os jogos oficiais da FIFA 
 | JSON | `output/world_cup_2026_fixtures.json` | Base auditável e completa |
 | CSV | `output/world_cup_2026_fixtures.csv` | Planilha, filtros, conferência rápida |
 | ICS | `output/world_cup_2026_fixtures.ics` | Feed completo |
+| ICS | `output/world_cup_2026_fixtures_v2.ics` | Feed completo com URL nova para escapar de cache |
 | ICS | `output/world_cup_2026_fixtures_sem_brasil.ics` | Feed para usar em verde |
+| ICS | `output/world_cup_2026_fixtures_sem_brasil_v2.ics` | Feed verde com URL nova |
 | ICS | `output/world_cup_2026_fixtures_brasil.ics` | Feed dos jogos do Brasil para usar em amarelo |
+| ICS | `output/world_cup_2026_fixtures_brasil_v2.ics` | Feed amarelo com URL nova |
 | Diff | `output/world_cup_2026_diff_summary.txt` | Ver o que mudou entre execuções |
 
 ## Fonte oficial usada
@@ -149,6 +152,8 @@ Estratégia prática:
 | `world_cup_2026_fixtures_sem_brasil.ics` | assinar e pintar de verde |
 | `world_cup_2026_fixtures_brasil.ics` | assinar e pintar de amarelo |
 | `world_cup_2026_fixtures.ics` | feed completo tradicional, se você preferir um calendário só |
+
+Se o Google teimar em cachear uma versão antiga, use os links `v2`, que existem justamente para forçar uma assinatura nova sem herdar o cache velho.
 
 Cores sugeridas:
 

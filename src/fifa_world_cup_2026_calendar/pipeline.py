@@ -9,10 +9,12 @@ from typing import Any
 from .config import (
     BRAZIL_CALENDAR_NAME,
     BRAZIL_ICS_PATH,
+    BRAZIL_ICS_V2_PATH,
     BRAZIL_TEAM_NAMES,
     CALENDAR_TZ,
     FIXTURES_CSV_PATH,
     FIXTURES_ICS_PATH,
+    FIXTURES_ICS_V2_PATH,
     FIXTURES_JSON_PATH,
     DEFAULT_MATCH_DURATION,
     DIFF_JSON_PATH,
@@ -22,6 +24,7 @@ from .config import (
     MATCHES_API_URL,
     NON_BRAZIL_CALENDAR_NAME,
     NON_BRAZIL_ICS_PATH,
+    NON_BRAZIL_ICS_V2_PATH,
     OUTPUT_DIR,
     RAW_MATCHES_PATH,
     RAW_STAGES_PATH,
@@ -285,12 +288,19 @@ def run() -> dict[str, Any]:
     write_json(FIXTURES_JSON_PATH, fixtures)
     write_csv(FIXTURES_CSV_PATH, fixtures)
     ics_text = write_ics(FIXTURES_ICS_PATH, fixtures)
+    write_ics(FIXTURES_ICS_V2_PATH, fixtures)
 
     brazil_fixtures = [fixture for fixture in fixtures if fixture["is_brazil_match"]]
     non_brazil_fixtures = [fixture for fixture in fixtures if not fixture["is_brazil_match"]]
     write_ics(BRAZIL_ICS_PATH, brazil_fixtures, calendar_name=BRAZIL_CALENDAR_NAME)
+    write_ics(BRAZIL_ICS_V2_PATH, brazil_fixtures, calendar_name=BRAZIL_CALENDAR_NAME)
     write_ics(
         NON_BRAZIL_ICS_PATH,
+        non_brazil_fixtures,
+        calendar_name=NON_BRAZIL_CALENDAR_NAME,
+    )
+    write_ics(
+        NON_BRAZIL_ICS_V2_PATH,
         non_brazil_fixtures,
         calendar_name=NON_BRAZIL_CALENDAR_NAME,
     )
@@ -310,8 +320,11 @@ def run() -> dict[str, Any]:
             "json": str(FIXTURES_JSON_PATH),
             "csv": str(FIXTURES_CSV_PATH),
             "ics": str(FIXTURES_ICS_PATH),
+            "ics_v2": str(FIXTURES_ICS_V2_PATH),
             "ics_brazil": str(BRAZIL_ICS_PATH),
+            "ics_brazil_v2": str(BRAZIL_ICS_V2_PATH),
             "ics_non_brazil": str(NON_BRAZIL_ICS_PATH),
+            "ics_non_brazil_v2": str(NON_BRAZIL_ICS_V2_PATH),
             "diff_json": str(DIFF_JSON_PATH),
             "diff_txt": str(DIFF_TXT_PATH),
         },
@@ -327,8 +340,11 @@ def main() -> int:
     print(f"JSON: {run_summary['paths']['json']}")
     print(f"CSV: {run_summary['paths']['csv']}")
     print(f"ICS: {run_summary['paths']['ics']}")
+    print(f"ICS V2: {run_summary['paths']['ics_v2']}")
     print(f"ICS Brasil: {run_summary['paths']['ics_brazil']}")
+    print(f"ICS Brasil V2: {run_summary['paths']['ics_brazil_v2']}")
     print(f"ICS Sem Brasil: {run_summary['paths']['ics_non_brazil']}")
+    print(f"ICS Sem Brasil V2: {run_summary['paths']['ics_non_brazil_v2']}")
     print(f"Diff: {run_summary['paths']['diff_txt']}")
     if run_summary["validation_issues"]:
         print("Validação: com alertas")
