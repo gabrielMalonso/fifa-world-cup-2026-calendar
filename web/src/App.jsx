@@ -144,6 +144,22 @@ function App() {
               <p>Cole a URL do feed</p>
             </div>
           </div>
+          <div className="steps-list-divider" />
+          <h3>Como mudar a cor</h3>
+          <div className="steps-list">
+            <div className="step">
+              <span className="step__number">1</span>
+              <p>Passe o mouse sobre o calendário na barra lateral</p>
+            </div>
+            <div className="step">
+              <span className="step__number">2</span>
+              <p>Clique nos três pontinhos</p>
+            </div>
+            <div className="step">
+              <span className="step__number">3</span>
+              <p>Selecione a cor desejada</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
