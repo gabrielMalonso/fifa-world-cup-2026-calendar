@@ -89,6 +89,55 @@
         margin-top: 24px;
       }
 
+      .subscribe {
+        margin-top: 28px;
+        padding: 18px;
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        background: rgba(255, 255, 255, 0.75);
+      }
+
+      .subscribe h2 {
+        margin: 0 0 10px;
+        font-size: 1.2rem;
+      }
+
+      .subscribe p {
+        margin: 8px 0;
+      }
+
+      .url-box {
+        display: block;
+        width: 100%;
+        margin-top: 12px;
+        padding: 14px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: #fff;
+        color: var(--ink);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 0.92rem;
+        line-height: 1.5;
+        word-break: break-all;
+      }
+
+      .steps {
+        margin: 16px 0 0;
+        padding-left: 18px;
+        color: var(--muted);
+      }
+
+      .steps li + li {
+        margin-top: 8px;
+      }
+
+      .copy-feedback {
+        min-height: 1.4em;
+        margin-top: 10px;
+        color: var(--accent);
+        font-weight: 700;
+      }
+
       .tile {
         padding: 16px;
         border-radius: 14px;
@@ -117,10 +166,26 @@
           <code>America/Sao_Paulo</code>.
         </p>
         <div class="actions">
-          <a class="button primary" href="./output/world_cup_2026_fixtures.ics">Baixar / assinar o ICS</a>
+          <a class="button primary" href="./output/world_cup_2026_fixtures.ics">Baixar o ICS</a>
+          <button class="button secondary" id="copyIcsUrl" type="button">Copiar URL para assinatura</button>
+          <a class="button secondary" href="webcal://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics">Abrir em apps compatíveis com webcal</a>
           <a class="button secondary" href="./output/world_cup_2026_fixtures.json">Ver JSON</a>
           <a class="button secondary" href="./output/world_cup_2026_fixtures.csv">Ver CSV</a>
         </div>
+        <section class="subscribe">
+          <h2>Assinatura de verdade</h2>
+          <p>
+            Para o Google Agenda acompanhar futuras atualizações, você precisa
+            assinar a URL do calendário. Baixar o arquivo sozinho não basta.
+          </p>
+          <div class="url-box" id="icsUrl">https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics</div>
+          <div class="copy-feedback" id="copyFeedback"></div>
+          <ol class="steps">
+            <li>No Google Agenda, abra <strong>Adicionar calendário &gt; Por URL</strong>.</li>
+            <li>Cole a URL acima.</li>
+            <li>Pronto: quando este mesmo link for atualizado, o Google tende a puxar as mudanças depois.</li>
+          </ol>
+        </section>
         <div class="grid">
           <div class="tile">
             <strong>Fonte oficial</strong>
@@ -137,5 +202,19 @@
         </div>
       </section>
     </main>
+    <script>
+      const icsUrl = "https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures.ics";
+      const copyButton = document.getElementById("copyIcsUrl");
+      const feedback = document.getElementById("copyFeedback");
+
+      copyButton.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(icsUrl);
+          feedback.textContent = "URL copiada. Agora é só colar em 'Adicionar por URL' no Google Agenda.";
+        } catch (error) {
+          feedback.textContent = "Não consegui copiar automaticamente. Copie a URL manualmente logo acima.";
+        }
+      });
+    </script>
   </body>
 </html>
