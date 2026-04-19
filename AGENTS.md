@@ -15,7 +15,7 @@ O foco do projeto é:
 Em resumo:
 
 ```text
-API oficial da FIFA -> normalização local -> arquivos em output/ -> GitHub Pages -> assinatura no Google Agenda
+API oficial da FIFA -> normalização local -> arquivos em output/ + site em React/Vite -> GitHub Pages -> assinatura no Google Agenda
 ```
 
 ## Organização do projeto
@@ -26,6 +26,18 @@ Estrutura principal:
   ponto de entrada para regenerar tudo
 - `src/fifa_world_cup_2026_calendar/`
   lógica do pipeline, configuração, ingestão da API e exportação dos arquivos
+- `web/`
+  código-fonte da página pública em `React + Vite`
+- `web/src/App.jsx`
+  composição principal da interface do site
+- `web/src/styles.css`
+  estilos da página pública
+- `scripts/publish-site.mjs`
+  publica o build do Vite na raiz do repositório
+- `package.json`
+  scripts e dependências do frontend
+- `vite.config.mjs`
+  configuração do build do site
 - `output/`
   artefatos gerados (`json`, `csv`, `ics`)
 - `logs/`
@@ -33,7 +45,9 @@ Estrutura principal:
 - `tests/`
   testes automatizados
 - `index.html`
-  página pública de assinatura publicada no GitHub Pages
+  artefato gerado do frontend, publicado no GitHub Pages
+- `assets/`
+  artefatos gerados do frontend publicados junto com a página
 - `README.md`
   documentação para uso humano
 - `AGENTS.md`
@@ -58,7 +72,8 @@ Estrutura principal:
 
 O repositório usa GitHub Pages para servir:
 
-- a página principal em `index.html`
+- a página principal gerada a partir do frontend em `web/`
+- os artefatos gerados na raiz (`index.html`, `assets/`, `favicon.png`)
 - os arquivos `ICS` dentro de `output/`
 
 URLs importantes:
@@ -94,6 +109,32 @@ Ao rodar:
 4. gera feeds separados para o Brasil;
 5. atualiza os arquivos que o GitHub Pages publica.
 
+## Fluxo do frontend
+
+Desenvolvimento do site:
+
+```bash
+npm run dev
+```
+
+Build do site:
+
+```bash
+npm run site:build
+```
+
+Publicação do site na raiz:
+
+```bash
+npm run site:publish
+```
+
+Regra importante:
+
+- o código-fonte do site vive em `web/`
+- a raiz do repositório contém os artefatos gerados que o GitHub Pages serve
+- se o frontend for alterado, o build precisa ser republicado para atualizar `index.html` e `assets/`
+
 ## Regras específicas deste projeto
 
 - A fonte principal deve continuar sendo a API oficial da FIFA.
@@ -103,6 +144,8 @@ Ao rodar:
 - A descrição dos eventos deve permanecer enxuta e humana.
 - O projeto deve evitar soluções pesadas sem necessidade.
 - Se o Google Agenda cachear uma versão antiga, preferir criar URLs novas de feed antes de inventar explicações mágicas.
+- A página pública deve continuar simples, direta e com baixa poluição visual.
+- Mudanças no site devem ser feitas no source em `web/`, não editando manualmente o `index.html` gerado da raiz.
 
 ## Vibe
 
