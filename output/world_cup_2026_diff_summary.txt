@@ -1,0 +1,5 @@
+Anterior: 104
+Atual: 104
+Novas: 0
+Removidas: 0
+Alteradas: 0

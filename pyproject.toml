@@ -1,0 +1,8 @@
+[project]
+name = "fifa-world-cup-2026-calendar"
+version = "0.1.0"
+description = "Pipeline local para gerar JSON, CSV e ICS oficiais da Copa do Mundo FIFA 2026."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

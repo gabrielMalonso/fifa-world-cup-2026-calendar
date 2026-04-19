@@ -1,0 +1,1822 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fifa-world-cup-2026-calendar//ICS Generator//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Copa do Mundo FIFA 2026
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VTIMEZONE
+TZID:America/Sao_Paulo
+X-LIC-LOCATION:America/Sao_Paulo
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+TZNAME:BRT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fifa-wc2026-match-001@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 1 - México x África do Sul
+DTSTART;TZID=America/Sao_Paulo:20260611T160000
+DTEND;TZID=America/Sao_Paulo:20260611T190000
+LOCATION:Estádio da Cidade do México\, Cidade do México\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo A\nHorário UTC oficia
+ l: 2026-06-11T19:00:00Z\nHorário BRT: 2026-06-11T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-11T19:00:00Z"\, "LocalDate": "2026-06-1
+ 1T13:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-002@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 2 - República da Coreia x Tchéquia
+DTSTART;TZID=America/Sao_Paulo:20260611T230000
+DTEND;TZID=America/Sao_Paulo:20260612T020000
+LOCATION:Estádio de Guadalajara\, Guadalajara\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo A\nHorário UTC oficia
+ l: 2026-06-12T02:00:00Z\nHorário BRT: 2026-06-11T23:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-12T02:00:00Z"\, "LocalDate": "2026-06-1
+ 1T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-003@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 3 - Canadá x Bósnia e Herzegovina
+DTSTART;TZID=America/Sao_Paulo:20260612T160000
+DTEND;TZID=America/Sao_Paulo:20260612T190000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo B\nHorário UTC oficia
+ l: 2026-06-12T19:00:00Z\nHorário BRT: 2026-06-12T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-12T19:00:00Z"\, "LocalDate": "2026-06-1
+ 2T15:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-004@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 4 - EUA x Paraguai
+DTSTART;TZID=America/Sao_Paulo:20260612T220000
+DTEND;TZID=America/Sao_Paulo:20260613T010000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo D\nHorário UTC oficia
+ l: 2026-06-13T01:00:00Z\nHorário BRT: 2026-06-12T22:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-13T01:00:00Z"\, "LocalDate": "2026-06-1
+ 2T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-005@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 5 - Haiti x Escócia
+DTSTART;TZID=America/Sao_Paulo:20260613T220000
+DTEND;TZID=America/Sao_Paulo:20260614T010000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo C\nHorário UTC oficia
+ l: 2026-06-14T01:00:00Z\nHorário BRT: 2026-06-13T22:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-14T01:00:00Z"\, "LocalDate": "2026-06-1
+ 3T21:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-006@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 6 - Austrália x Turquia
+DTSTART;TZID=America/Sao_Paulo:20260614T010000
+DTEND;TZID=America/Sao_Paulo:20260614T040000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo D\nHorário UTC oficia
+ l: 2026-06-14T04:00:00Z\nHorário BRT: 2026-06-14T01:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-14T04:00:00Z"\, "LocalDate": "2026-06-1
+ 3T21:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-007@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 7 - Brasil x Marrocos
+DTSTART;TZID=America/Sao_Paulo:20260613T190000
+DTEND;TZID=America/Sao_Paulo:20260613T220000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo C\nHorário UTC oficia
+ l: 2026-06-13T22:00:00Z\nHorário BRT: 2026-06-13T19:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-13T22:00:00Z"\, "LocalDate": "2026-06-1
+ 3T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-008@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 8 - Catar x Suíça
+DTSTART;TZID=America/Sao_Paulo:20260613T160000
+DTEND;TZID=America/Sao_Paulo:20260613T190000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo B\nHorário UTC oficia
+ l: 2026-06-13T19:00:00Z\nHorário BRT: 2026-06-13T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-13T19:00:00Z"\, "LocalDate": "2026-06-1
+ 3T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-009@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 9 - Costa do Marfim x Equador
+DTSTART;TZID=America/Sao_Paulo:20260614T200000
+DTEND;TZID=America/Sao_Paulo:20260614T230000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo E\nHorário UTC oficia
+ l: 2026-06-14T23:00:00Z\nHorário BRT: 2026-06-14T20:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-14T23:00:00Z"\, "LocalDate": "2026-06-1
+ 4T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-010@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 10 - Alemanha x Curaçau
+DTSTART;TZID=America/Sao_Paulo:20260614T140000
+DTEND;TZID=America/Sao_Paulo:20260614T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo E\nHorário UTC oficia
+ l: 2026-06-14T17:00:00Z\nHorário BRT: 2026-06-14T14:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-14T17:00:00Z"\, "LocalDate": "2026-06-1
+ 4T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-011@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 11 - Holanda x Japão
+DTSTART;TZID=America/Sao_Paulo:20260614T170000
+DTEND;TZID=America/Sao_Paulo:20260614T200000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo F\nHorário UTC oficia
+ l: 2026-06-14T20:00:00Z\nHorário BRT: 2026-06-14T17:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-14T20:00:00Z"\, "LocalDate": "2026-06-1
+ 4T15:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-012@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 12 - Suécia x Tunísia
+DTSTART;TZID=America/Sao_Paulo:20260614T230000
+DTEND;TZID=America/Sao_Paulo:20260615T020000
+LOCATION:Estádio de Monterrey\, Monterrey\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo F\nHorário UTC oficia
+ l: 2026-06-15T02:00:00Z\nHorário BRT: 2026-06-14T23:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-15T02:00:00Z"\, "LocalDate": "2026-06-1
+ 4T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-013@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 13 - Arábia Saudita x Uruguai
+DTSTART;TZID=America/Sao_Paulo:20260615T190000
+DTEND;TZID=America/Sao_Paulo:20260615T220000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo H\nHorário UTC oficia
+ l: 2026-06-15T22:00:00Z\nHorário BRT: 2026-06-15T19:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-15T22:00:00Z"\, "LocalDate": "2026-06-1
+ 5T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-014@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 14 - Espanha x Cabo Verde
+DTSTART;TZID=America/Sao_Paulo:20260615T130000
+DTEND;TZID=America/Sao_Paulo:20260615T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo H\nHorário UTC oficia
+ l: 2026-06-15T16:00:00Z\nHorário BRT: 2026-06-15T13:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-15T16:00:00Z"\, "LocalDate": "2026-06-1
+ 5T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-015@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 15 - RI do Irã x Nova Zelândia
+DTSTART;TZID=America/Sao_Paulo:20260615T220000
+DTEND;TZID=America/Sao_Paulo:20260616T010000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo G\nHorário UTC oficia
+ l: 2026-06-16T01:00:00Z\nHorário BRT: 2026-06-15T22:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-16T01:00:00Z"\, "LocalDate": "2026-06-1
+ 5T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-016@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 16 - Bélgica x Egito
+DTSTART;TZID=America/Sao_Paulo:20260615T160000
+DTEND;TZID=America/Sao_Paulo:20260615T190000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo G\nHorário UTC oficia
+ l: 2026-06-15T19:00:00Z\nHorário BRT: 2026-06-15T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-15T19:00:00Z"\, "LocalDate": "2026-06-1
+ 5T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-017@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 17 - França x Senegal
+DTSTART;TZID=America/Sao_Paulo:20260616T160000
+DTEND;TZID=America/Sao_Paulo:20260616T190000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo I\nHorário UTC oficia
+ l: 2026-06-16T19:00:00Z\nHorário BRT: 2026-06-16T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-16T19:00:00Z"\, "LocalDate": "2026-06-1
+ 6T15:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-018@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 18 - Iraque x Noruega
+DTSTART;TZID=America/Sao_Paulo:20260616T190000
+DTEND;TZID=America/Sao_Paulo:20260616T220000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo I\nHorário UTC oficia
+ l: 2026-06-16T22:00:00Z\nHorário BRT: 2026-06-16T19:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-16T22:00:00Z"\, "LocalDate": "2026-06-1
+ 6T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-019@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 19 - Argentina x Argélia
+DTSTART;TZID=America/Sao_Paulo:20260616T220000
+DTEND;TZID=America/Sao_Paulo:20260617T010000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo J\nHorário UTC oficia
+ l: 2026-06-17T01:00:00Z\nHorário BRT: 2026-06-16T22:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-17T01:00:00Z"\, "LocalDate": "2026-06-1
+ 6T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-020@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 20 - Áustria x Jordânia
+DTSTART;TZID=America/Sao_Paulo:20260617T010000
+DTEND;TZID=America/Sao_Paulo:20260617T040000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo J\nHorário UTC oficia
+ l: 2026-06-17T04:00:00Z\nHorário BRT: 2026-06-17T01:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-17T04:00:00Z"\, "LocalDate": "2026-06-1
+ 6T21:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-021@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 21 - Gana x Panamá
+DTSTART;TZID=America/Sao_Paulo:20260617T200000
+DTEND;TZID=America/Sao_Paulo:20260617T230000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo L\nHorário UTC oficia
+ l: 2026-06-17T23:00:00Z\nHorário BRT: 2026-06-17T20:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-17T23:00:00Z"\, "LocalDate": "2026-06-1
+ 7T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-022@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 22 - Inglaterra x Croácia
+DTSTART;TZID=America/Sao_Paulo:20260617T170000
+DTEND;TZID=America/Sao_Paulo:20260617T200000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo L\nHorário UTC oficia
+ l: 2026-06-17T20:00:00Z\nHorário BRT: 2026-06-17T17:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-17T20:00:00Z"\, "LocalDate": "2026-06-1
+ 7T15:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-023@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 23 - Portugal x RD do Congo
+DTSTART;TZID=America/Sao_Paulo:20260617T140000
+DTEND;TZID=America/Sao_Paulo:20260617T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo K\nHorário UTC oficia
+ l: 2026-06-17T17:00:00Z\nHorário BRT: 2026-06-17T14:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-17T17:00:00Z"\, "LocalDate": "2026-06-1
+ 7T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-024@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 24 - Uzbequistão x Colômbia
+DTSTART;TZID=America/Sao_Paulo:20260617T230000
+DTEND;TZID=America/Sao_Paulo:20260618T020000
+LOCATION:Estádio da Cidade do México\, Cidade do México\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo K\nHorário UTC oficia
+ l: 2026-06-18T02:00:00Z\nHorário BRT: 2026-06-17T23:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-18T02:00:00Z"\, "LocalDate": "2026-06-1
+ 7T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-025@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 25 - Tchéquia x África do Sul
+DTSTART;TZID=America/Sao_Paulo:20260618T130000
+DTEND;TZID=America/Sao_Paulo:20260618T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo A\nHorário UTC oficia
+ l: 2026-06-18T16:00:00Z\nHorário BRT: 2026-06-18T13:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-18T16:00:00Z"\, "LocalDate": "2026-06-1
+ 8T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-026@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 26 - Suíça x Bósnia e Herzegovina
+DTSTART;TZID=America/Sao_Paulo:20260618T160000
+DTEND;TZID=America/Sao_Paulo:20260618T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo B\nHorário UTC oficia
+ l: 2026-06-18T19:00:00Z\nHorário BRT: 2026-06-18T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-18T19:00:00Z"\, "LocalDate": "2026-06-1
+ 8T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-027@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 27 - Canadá x Catar
+DTSTART;TZID=America/Sao_Paulo:20260618T190000
+DTEND;TZID=America/Sao_Paulo:20260618T220000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo B\nHorário UTC oficia
+ l: 2026-06-18T22:00:00Z\nHorário BRT: 2026-06-18T19:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-18T22:00:00Z"\, "LocalDate": "2026-06-1
+ 8T15:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-028@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 28 - México x República da Coreia
+DTSTART;TZID=America/Sao_Paulo:20260618T220000
+DTEND;TZID=America/Sao_Paulo:20260619T010000
+LOCATION:Estádio de Guadalajara\, Guadalajara\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo A\nHorário UTC oficia
+ l: 2026-06-19T01:00:00Z\nHorário BRT: 2026-06-18T22:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-19T01:00:00Z"\, "LocalDate": "2026-06-1
+ 8T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-029@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 29 - Brasil x Haiti
+DTSTART;TZID=America/Sao_Paulo:20260619T213000
+DTEND;TZID=America/Sao_Paulo:20260620T003000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo C\nHorário UTC oficia
+ l: 2026-06-20T00:30:00Z\nHorário BRT: 2026-06-19T21:30:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-20T00:30:00Z"\, "LocalDate": "2026-06-1
+ 9T20:30:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-030@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 30 - Escócia x Marrocos
+DTSTART;TZID=America/Sao_Paulo:20260619T190000
+DTEND;TZID=America/Sao_Paulo:20260619T220000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo C\nHorário UTC oficia
+ l: 2026-06-19T22:00:00Z\nHorário BRT: 2026-06-19T19:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-19T22:00:00Z"\, "LocalDate": "2026-06-1
+ 9T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-031@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 31 - Turquia x Paraguai
+DTSTART;TZID=America/Sao_Paulo:20260620T000000
+DTEND;TZID=America/Sao_Paulo:20260620T030000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo D\nHorário UTC oficia
+ l: 2026-06-20T03:00:00Z\nHorário BRT: 2026-06-20T00:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-20T03:00:00Z"\, "LocalDate": "2026-06-1
+ 9T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-032@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 32 - EUA x Austrália
+DTSTART;TZID=America/Sao_Paulo:20260619T160000
+DTEND;TZID=America/Sao_Paulo:20260619T190000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo D\nHorário UTC oficia
+ l: 2026-06-19T19:00:00Z\nHorário BRT: 2026-06-19T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-19T19:00:00Z"\, "LocalDate": "2026-06-1
+ 9T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-033@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 33 - Alemanha x Costa do Marfim
+DTSTART;TZID=America/Sao_Paulo:20260620T170000
+DTEND;TZID=America/Sao_Paulo:20260620T200000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo E\nHorário UTC oficia
+ l: 2026-06-20T20:00:00Z\nHorário BRT: 2026-06-20T17:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-20T20:00:00Z"\, "LocalDate": "2026-06-2
+ 0T16:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-034@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 34 - Equador x Curaçau
+DTSTART;TZID=America/Sao_Paulo:20260620T210000
+DTEND;TZID=America/Sao_Paulo:20260621T000000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo E\nHorário UTC oficia
+ l: 2026-06-21T00:00:00Z\nHorário BRT: 2026-06-20T21:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-21T00:00:00Z"\, "LocalDate": "2026-06-2
+ 0T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-035@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 35 - Holanda x Suécia
+DTSTART;TZID=America/Sao_Paulo:20260620T140000
+DTEND;TZID=America/Sao_Paulo:20260620T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo F\nHorário UTC oficia
+ l: 2026-06-20T17:00:00Z\nHorário BRT: 2026-06-20T14:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-20T17:00:00Z"\, "LocalDate": "2026-06-2
+ 0T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-036@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 36 - Tunísia x Japão
+DTSTART;TZID=America/Sao_Paulo:20260621T010000
+DTEND;TZID=America/Sao_Paulo:20260621T040000
+LOCATION:Estádio de Monterrey\, Monterrey\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo F\nHorário UTC oficia
+ l: 2026-06-21T04:00:00Z\nHorário BRT: 2026-06-21T01:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-21T04:00:00Z"\, "LocalDate": "2026-06-2
+ 0T22:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-037@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 37 - Uruguai x Cabo Verde
+DTSTART;TZID=America/Sao_Paulo:20260621T190000
+DTEND;TZID=America/Sao_Paulo:20260621T220000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo H\nHorário UTC oficia
+ l: 2026-06-21T22:00:00Z\nHorário BRT: 2026-06-21T19:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-21T22:00:00Z"\, "LocalDate": "2026-06-2
+ 1T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-038@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 38 - Espanha x Arábia Saudita
+DTSTART;TZID=America/Sao_Paulo:20260621T130000
+DTEND;TZID=America/Sao_Paulo:20260621T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo H\nHorário UTC oficia
+ l: 2026-06-21T16:00:00Z\nHorário BRT: 2026-06-21T13:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-21T16:00:00Z"\, "LocalDate": "2026-06-2
+ 1T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-039@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 39 - Bélgica x RI do Irã
+DTSTART;TZID=America/Sao_Paulo:20260621T160000
+DTEND;TZID=America/Sao_Paulo:20260621T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo G\nHorário UTC oficia
+ l: 2026-06-21T19:00:00Z\nHorário BRT: 2026-06-21T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-21T19:00:00Z"\, "LocalDate": "2026-06-2
+ 1T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-040@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 40 - Nova Zelândia x Egito
+DTSTART;TZID=America/Sao_Paulo:20260621T220000
+DTEND;TZID=America/Sao_Paulo:20260622T010000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo G\nHorário UTC oficia
+ l: 2026-06-22T01:00:00Z\nHorário BRT: 2026-06-21T22:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-22T01:00:00Z"\, "LocalDate": "2026-06-2
+ 1T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-041@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 41 - Noruega x Senegal
+DTSTART;TZID=America/Sao_Paulo:20260622T210000
+DTEND;TZID=America/Sao_Paulo:20260623T000000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo I\nHorário UTC oficia
+ l: 2026-06-23T00:00:00Z\nHorário BRT: 2026-06-22T21:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-23T00:00:00Z"\, "LocalDate": "2026-06-2
+ 2T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-042@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 42 - França x Iraque
+DTSTART;TZID=America/Sao_Paulo:20260622T180000
+DTEND;TZID=America/Sao_Paulo:20260622T210000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo I\nHorário UTC oficia
+ l: 2026-06-22T21:00:00Z\nHorário BRT: 2026-06-22T18:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-22T21:00:00Z"\, "LocalDate": "2026-06-2
+ 2T17:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-043@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 43 - Argentina x Áustria
+DTSTART;TZID=America/Sao_Paulo:20260622T140000
+DTEND;TZID=America/Sao_Paulo:20260622T170000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo J\nHorário UTC oficia
+ l: 2026-06-22T17:00:00Z\nHorário BRT: 2026-06-22T14:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-22T17:00:00Z"\, "LocalDate": "2026-06-2
+ 2T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-044@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 44 - Jordânia x Argélia
+DTSTART;TZID=America/Sao_Paulo:20260623T000000
+DTEND;TZID=America/Sao_Paulo:20260623T030000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo J\nHorário UTC oficia
+ l: 2026-06-23T03:00:00Z\nHorário BRT: 2026-06-23T00:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-23T03:00:00Z"\, "LocalDate": "2026-06-2
+ 2T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-045@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 45 - Inglaterra x Gana
+DTSTART;TZID=America/Sao_Paulo:20260623T170000
+DTEND;TZID=America/Sao_Paulo:20260623T200000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo L\nHorário UTC oficia
+ l: 2026-06-23T20:00:00Z\nHorário BRT: 2026-06-23T17:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-23T20:00:00Z"\, "LocalDate": "2026-06-2
+ 3T16:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-046@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 46 - Panamá x Croácia
+DTSTART;TZID=America/Sao_Paulo:20260623T200000
+DTEND;TZID=America/Sao_Paulo:20260623T230000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo L\nHorário UTC oficia
+ l: 2026-06-23T23:00:00Z\nHorário BRT: 2026-06-23T20:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-23T23:00:00Z"\, "LocalDate": "2026-06-2
+ 3T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-047@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 47 - Portugal x Uzbequistão
+DTSTART;TZID=America/Sao_Paulo:20260623T140000
+DTEND;TZID=America/Sao_Paulo:20260623T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo K\nHorário UTC oficia
+ l: 2026-06-23T17:00:00Z\nHorário BRT: 2026-06-23T14:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-23T17:00:00Z"\, "LocalDate": "2026-06-2
+ 3T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-048@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 48 - Colômbia x RD do Congo
+DTSTART;TZID=America/Sao_Paulo:20260623T230000
+DTEND;TZID=America/Sao_Paulo:20260624T020000
+LOCATION:Estádio de Guadalajara\, Guadalajara\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo K\nHorário UTC oficia
+ l: 2026-06-24T02:00:00Z\nHorário BRT: 2026-06-23T23:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-24T02:00:00Z"\, "LocalDate": "2026-06-2
+ 3T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-049@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 49 - Escócia x Brasil
+DTSTART;TZID=America/Sao_Paulo:20260624T190000
+DTEND;TZID=America/Sao_Paulo:20260624T220000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo C\nHorário UTC oficia
+ l: 2026-06-24T22:00:00Z\nHorário BRT: 2026-06-24T19:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-24T22:00:00Z"\, "LocalDate": "2026-06-2
+ 4T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-050@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 50 - Marrocos x Haiti
+DTSTART;TZID=America/Sao_Paulo:20260624T190000
+DTEND;TZID=America/Sao_Paulo:20260624T220000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo C\nHorário UTC oficia
+ l: 2026-06-24T22:00:00Z\nHorário BRT: 2026-06-24T19:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-24T22:00:00Z"\, "LocalDate": "2026-06-2
+ 4T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-051@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 51 - Suíça x Canadá
+DTSTART;TZID=America/Sao_Paulo:20260624T160000
+DTEND;TZID=America/Sao_Paulo:20260624T190000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo B\nHorário UTC oficia
+ l: 2026-06-24T19:00:00Z\nHorário BRT: 2026-06-24T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-24T19:00:00Z"\, "LocalDate": "2026-06-2
+ 4T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-052@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 52 - Bósnia e Herzegovina x Catar
+DTSTART;TZID=America/Sao_Paulo:20260624T160000
+DTEND;TZID=America/Sao_Paulo:20260624T190000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo B\nHorário UTC oficia
+ l: 2026-06-24T19:00:00Z\nHorário BRT: 2026-06-24T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-24T19:00:00Z"\, "LocalDate": "2026-06-2
+ 4T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-053@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 53 - Tchéquia x México
+DTSTART;TZID=America/Sao_Paulo:20260624T220000
+DTEND;TZID=America/Sao_Paulo:20260625T010000
+LOCATION:Estádio da Cidade do México\, Cidade do México\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo A\nHorário UTC oficia
+ l: 2026-06-25T01:00:00Z\nHorário BRT: 2026-06-24T22:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-25T01:00:00Z"\, "LocalDate": "2026-06-2
+ 4T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-054@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 54 - África do Sul x República da Corei
+ a
+DTSTART;TZID=America/Sao_Paulo:20260624T220000
+DTEND;TZID=America/Sao_Paulo:20260625T010000
+LOCATION:Estádio de Monterrey\, Monterrey\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo A\nHorário UTC oficia
+ l: 2026-06-25T01:00:00Z\nHorário BRT: 2026-06-24T22:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-25T01:00:00Z"\, "LocalDate": "2026-06-2
+ 4T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-055@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 55 - Curaçau x Costa do Marfim
+DTSTART;TZID=America/Sao_Paulo:20260625T170000
+DTEND;TZID=America/Sao_Paulo:20260625T200000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo E\nHorário UTC oficia
+ l: 2026-06-25T20:00:00Z\nHorário BRT: 2026-06-25T17:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-25T20:00:00Z"\, "LocalDate": "2026-06-2
+ 5T16:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-056@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 56 - Equador x Alemanha
+DTSTART;TZID=America/Sao_Paulo:20260625T170000
+DTEND;TZID=America/Sao_Paulo:20260625T200000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo E\nHorário UTC oficia
+ l: 2026-06-25T20:00:00Z\nHorário BRT: 2026-06-25T17:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-25T20:00:00Z"\, "LocalDate": "2026-06-2
+ 5T16:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-057@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 57 - Japão x Suécia
+DTSTART;TZID=America/Sao_Paulo:20260625T200000
+DTEND;TZID=America/Sao_Paulo:20260625T230000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo F\nHorário UTC oficia
+ l: 2026-06-25T23:00:00Z\nHorário BRT: 2026-06-25T20:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-25T23:00:00Z"\, "LocalDate": "2026-06-2
+ 5T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-058@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 58 - Tunísia x Holanda
+DTSTART;TZID=America/Sao_Paulo:20260625T200000
+DTEND;TZID=America/Sao_Paulo:20260625T230000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo F\nHorário UTC oficia
+ l: 2026-06-25T23:00:00Z\nHorário BRT: 2026-06-25T20:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-25T23:00:00Z"\, "LocalDate": "2026-06-2
+ 5T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-059@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 59 - Turquia x EUA
+DTSTART;TZID=America/Sao_Paulo:20260625T230000
+DTEND;TZID=America/Sao_Paulo:20260626T020000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo D\nHorário UTC oficia
+ l: 2026-06-26T02:00:00Z\nHorário BRT: 2026-06-25T23:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-26T02:00:00Z"\, "LocalDate": "2026-06-2
+ 5T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-060@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 60 - Paraguai x Austrália
+DTSTART;TZID=America/Sao_Paulo:20260625T230000
+DTEND;TZID=America/Sao_Paulo:20260626T020000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo D\nHorário UTC oficia
+ l: 2026-06-26T02:00:00Z\nHorário BRT: 2026-06-25T23:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-26T02:00:00Z"\, "LocalDate": "2026-06-2
+ 5T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-061@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 61 - Noruega x França
+DTSTART;TZID=America/Sao_Paulo:20260626T160000
+DTEND;TZID=America/Sao_Paulo:20260626T190000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo I\nHorário UTC oficia
+ l: 2026-06-26T19:00:00Z\nHorário BRT: 2026-06-26T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-26T19:00:00Z"\, "LocalDate": "2026-06-2
+ 6T15:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-062@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 62 - Senegal x Iraque
+DTSTART;TZID=America/Sao_Paulo:20260626T160000
+DTEND;TZID=America/Sao_Paulo:20260626T190000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo I\nHorário UTC oficia
+ l: 2026-06-26T19:00:00Z\nHorário BRT: 2026-06-26T16:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-26T19:00:00Z"\, "LocalDate": "2026-06-2
+ 6T15:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-063@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 63 - Egito x RI do Irã
+DTSTART;TZID=America/Sao_Paulo:20260627T000000
+DTEND;TZID=America/Sao_Paulo:20260627T030000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo G\nHorário UTC oficia
+ l: 2026-06-27T03:00:00Z\nHorário BRT: 2026-06-27T00:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-27T03:00:00Z"\, "LocalDate": "2026-06-2
+ 6T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-064@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 64 - Nova Zelândia x Bélgica
+DTSTART;TZID=America/Sao_Paulo:20260627T000000
+DTEND;TZID=America/Sao_Paulo:20260627T030000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo G\nHorário UTC oficia
+ l: 2026-06-27T03:00:00Z\nHorário BRT: 2026-06-27T00:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-27T03:00:00Z"\, "LocalDate": "2026-06-2
+ 6T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-065@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 65 - Cabo Verde x Arábia Saudita
+DTSTART;TZID=America/Sao_Paulo:20260626T210000
+DTEND;TZID=America/Sao_Paulo:20260627T000000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo H\nHorário UTC oficia
+ l: 2026-06-27T00:00:00Z\nHorário BRT: 2026-06-26T21:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-27T00:00:00Z"\, "LocalDate": "2026-06-2
+ 6T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-066@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 66 - Uruguai x Espanha
+DTSTART;TZID=America/Sao_Paulo:20260626T210000
+DTEND;TZID=America/Sao_Paulo:20260627T000000
+LOCATION:Estádio de Guadalajara\, Guadalajara\, México
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo H\nHorário UTC oficia
+ l: 2026-06-27T00:00:00Z\nHorário BRT: 2026-06-26T21:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-27T00:00:00Z"\, "LocalDate": "2026-06-2
+ 6T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-067@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 67 - Panamá x Inglaterra
+DTSTART;TZID=America/Sao_Paulo:20260627T180000
+DTEND;TZID=America/Sao_Paulo:20260627T210000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo L\nHorário UTC oficia
+ l: 2026-06-27T21:00:00Z\nHorário BRT: 2026-06-27T18:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-27T21:00:00Z"\, "LocalDate": "2026-06-2
+ 7T17:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-068@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 68 - Croácia x Gana
+DTSTART;TZID=America/Sao_Paulo:20260627T180000
+DTEND;TZID=America/Sao_Paulo:20260627T210000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo L\nHorário UTC oficia
+ l: 2026-06-27T21:00:00Z\nHorário BRT: 2026-06-27T18:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-27T21:00:00Z"\, "LocalDate": "2026-06-2
+ 7T17:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-069@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 69 - Argélia x Áustria
+DTSTART;TZID=America/Sao_Paulo:20260627T230000
+DTEND;TZID=America/Sao_Paulo:20260628T020000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo J\nHorário UTC oficia
+ l: 2026-06-28T02:00:00Z\nHorário BRT: 2026-06-27T23:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-28T02:00:00Z"\, "LocalDate": "2026-06-2
+ 7T21:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-070@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 70 - Jordânia x Argentina
+DTSTART;TZID=America/Sao_Paulo:20260627T230000
+DTEND;TZID=America/Sao_Paulo:20260628T020000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo J\nHorário UTC oficia
+ l: 2026-06-28T02:00:00Z\nHorário BRT: 2026-06-27T23:00:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-28T02:00:00Z"\, "LocalDate": "2026-06-2
+ 7T21:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-071@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 71 - Colômbia x Portugal
+DTSTART;TZID=America/Sao_Paulo:20260627T203000
+DTEND;TZID=America/Sao_Paulo:20260627T233000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo K\nHorário UTC oficia
+ l: 2026-06-27T23:30:00Z\nHorário BRT: 2026-06-27T20:30:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-27T23:30:00Z"\, "LocalDate": "2026-06-2
+ 7T19:30:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-072@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 72 - RD do Congo x Uzbequistão
+DTSTART;TZID=America/Sao_Paulo:20260627T203000
+DTEND;TZID=America/Sao_Paulo:20260627T233000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Fase: Primeira fase\nGrupo/Rodada: Grupo K\nHorário UTC oficia
+ l: 2026-06-27T23:30:00Z\nHorário BRT: 2026-06-27T20:30:00-03:00\nHorário
+  bruto da fonte: {"Date": "2026-06-27T23:30:00Z"\, "LocalDate": "2026-06-2
+ 7T19:30:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEnd
+ point oficial usado: https://api.fifa.com/api/v3/calendar/matches?language
+ =pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-073@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 73 - 2A x 2B
+DTSTART;TZID=America/Sao_Paulo:20260628T160000
+DTEND;TZID=America/Sao_Paulo:20260628T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-06-28T19:00:00Z\nHorário BRT: 2026-06-28T16:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-06-28T19:00:00Z"\, "LocalDat
+ e": "2026-06-28T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-074@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 74 - 1E x 3ABCDF
+DTSTART;TZID=America/Sao_Paulo:20260629T173000
+DTEND;TZID=America/Sao_Paulo:20260629T203000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-06-29T20:30:00Z\nHorário BRT: 2026-06-29T17:30:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-06-29T20:30:00Z"\, "LocalDat
+ e": "2026-06-29T16:30:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-075@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 75 - 1F x 2C
+DTSTART;TZID=America/Sao_Paulo:20260629T220000
+DTEND;TZID=America/Sao_Paulo:20260630T010000
+LOCATION:Estádio de Monterrey\, Monterrey\, México
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-06-30T01:00:00Z\nHorário BRT: 2026-06-29T22:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-06-30T01:00:00Z"\, "LocalDat
+ e": "2026-06-29T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-076@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 76 - 1C x 2F
+DTSTART;TZID=America/Sao_Paulo:20260629T140000
+DTEND;TZID=America/Sao_Paulo:20260629T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-06-29T17:00:00Z\nHorário BRT: 2026-06-29T14:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-06-29T17:00:00Z"\, "LocalDat
+ e": "2026-06-29T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-077@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 77 - 1I x 3CDFGH
+DTSTART;TZID=America/Sao_Paulo:20260630T180000
+DTEND;TZID=America/Sao_Paulo:20260630T210000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-06-30T21:00:00Z\nHorário BRT: 2026-06-30T18:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-06-30T21:00:00Z"\, "LocalDat
+ e": "2026-06-30T17:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-078@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 78 - 2E x 2I
+DTSTART;TZID=America/Sao_Paulo:20260630T140000
+DTEND;TZID=America/Sao_Paulo:20260630T170000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-06-30T17:00:00Z\nHorário BRT: 2026-06-30T14:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-06-30T17:00:00Z"\, "LocalDat
+ e": "2026-06-30T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-079@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 79 - 1A x 3CEFHI
+DTSTART;TZID=America/Sao_Paulo:20260630T220000
+DTEND;TZID=America/Sao_Paulo:20260701T010000
+LOCATION:Estádio da Cidade do México\, Cidade do México\, México
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-01T01:00:00Z\nHorário BRT: 2026-06-30T22:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-01T01:00:00Z"\, "LocalDat
+ e": "2026-06-30T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-080@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 80 - 1L x 3EHIJK
+DTSTART;TZID=America/Sao_Paulo:20260701T130000
+DTEND;TZID=America/Sao_Paulo:20260701T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-01T16:00:00Z\nHorário BRT: 2026-07-01T13:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-01T16:00:00Z"\, "LocalDat
+ e": "2026-07-01T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-081@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 81 - 1D x 3BEFIJ
+DTSTART;TZID=America/Sao_Paulo:20260701T210000
+DTEND;TZID=America/Sao_Paulo:20260702T000000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-02T00:00:00Z\nHorário BRT: 2026-07-01T21:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-02T00:00:00Z"\, "LocalDat
+ e": "2026-07-01T17:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-082@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 82 - 1G x 3AEHIJ
+DTSTART;TZID=America/Sao_Paulo:20260701T170000
+DTEND;TZID=America/Sao_Paulo:20260701T200000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-01T20:00:00Z\nHorário BRT: 2026-07-01T17:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-01T20:00:00Z"\, "LocalDat
+ e": "2026-07-01T13:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-083@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 83 - 2K x 2L
+DTSTART;TZID=America/Sao_Paulo:20260702T200000
+DTEND;TZID=America/Sao_Paulo:20260702T230000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-02T23:00:00Z\nHorário BRT: 2026-07-02T20:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-02T23:00:00Z"\, "LocalDat
+ e": "2026-07-02T19:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-084@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 84 - 1H x 2J
+DTSTART;TZID=America/Sao_Paulo:20260702T160000
+DTEND;TZID=America/Sao_Paulo:20260702T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-02T19:00:00Z\nHorário BRT: 2026-07-02T16:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-02T19:00:00Z"\, "LocalDat
+ e": "2026-07-02T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-085@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 85 - 1B x 3EFGIJ
+DTSTART;TZID=America/Sao_Paulo:20260703T000000
+DTEND;TZID=America/Sao_Paulo:20260703T030000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-03T03:00:00Z\nHorário BRT: 2026-07-03T00:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-03T03:00:00Z"\, "LocalDat
+ e": "2026-07-02T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-086@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 86 - 1J x 2H
+DTSTART;TZID=America/Sao_Paulo:20260703T190000
+DTEND;TZID=America/Sao_Paulo:20260703T220000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-03T22:00:00Z\nHorário BRT: 2026-07-03T19:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-03T22:00:00Z"\, "LocalDat
+ e": "2026-07-03T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-087@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 87 - 1K x 3DEIJL
+DTSTART;TZID=America/Sao_Paulo:20260703T223000
+DTEND;TZID=America/Sao_Paulo:20260704T013000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-04T01:30:00Z\nHorário BRT: 2026-07-03T22:30:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-04T01:30:00Z"\, "LocalDat
+ e": "2026-07-03T20:30:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-088@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 88 - 2D x 2G
+DTSTART;TZID=America/Sao_Paulo:20260703T150000
+DTEND;TZID=America/Sao_Paulo:20260703T180000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Fase: Segundas de final\nGrupo/Rodada: Segundas de final\nHorá
+ rio UTC oficial: 2026-07-03T18:00:00Z\nHorário BRT: 2026-07-03T15:00:00-0
+ 3:00\nHorário bruto da fonte: {"Date": "2026-07-03T18:00:00Z"\, "LocalDat
+ e": "2026-07-03T13:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: ht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/ma
+ tches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:1
+ 7.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-089@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 89 - W74 x W77
+DTSTART;TZID=America/Sao_Paulo:20260704T180000
+DTEND;TZID=America/Sao_Paulo:20260704T210000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Fase: Oitavas de final\nGrupo/Rodada: Oitavas de final\nHorári
+ o UTC oficial: 2026-07-04T21:00:00Z\nHorário BRT: 2026-07-04T18:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-04T21:00:00Z"\, "LocalDate"
+ : "2026-07-04T17:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-090@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 90 - W73 x W75
+DTSTART;TZID=America/Sao_Paulo:20260704T140000
+DTEND;TZID=America/Sao_Paulo:20260704T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Fase: Oitavas de final\nGrupo/Rodada: Oitavas de final\nHorári
+ o UTC oficial: 2026-07-04T17:00:00Z\nHorário BRT: 2026-07-04T14:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-04T17:00:00Z"\, "LocalDate"
+ : "2026-07-04T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-091@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 91 - W76 x W78
+DTSTART;TZID=America/Sao_Paulo:20260705T170000
+DTEND;TZID=America/Sao_Paulo:20260705T200000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Fase: Oitavas de final\nGrupo/Rodada: Oitavas de final\nHorári
+ o UTC oficial: 2026-07-05T20:00:00Z\nHorário BRT: 2026-07-05T17:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-05T20:00:00Z"\, "LocalDate"
+ : "2026-07-05T16:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-092@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 92 - W79 x W80
+DTSTART;TZID=America/Sao_Paulo:20260705T210000
+DTEND;TZID=America/Sao_Paulo:20260706T000000
+LOCATION:Estádio da Cidade do México\, Cidade do México\, México
+DESCRIPTION:Fase: Oitavas de final\nGrupo/Rodada: Oitavas de final\nHorári
+ o UTC oficial: 2026-07-06T00:00:00Z\nHorário BRT: 2026-07-05T21:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-06T00:00:00Z"\, "LocalDate"
+ : "2026-07-05T18:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-093@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 93 - W83 x W84
+DTSTART;TZID=America/Sao_Paulo:20260706T160000
+DTEND;TZID=America/Sao_Paulo:20260706T190000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Fase: Oitavas de final\nGrupo/Rodada: Oitavas de final\nHorári
+ o UTC oficial: 2026-07-06T19:00:00Z\nHorário BRT: 2026-07-06T16:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-06T19:00:00Z"\, "LocalDate"
+ : "2026-07-06T14:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-094@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 94 - W81 x W82
+DTSTART;TZID=America/Sao_Paulo:20260706T210000
+DTEND;TZID=America/Sao_Paulo:20260707T000000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Fase: Oitavas de final\nGrupo/Rodada: Oitavas de final\nHorári
+ o UTC oficial: 2026-07-07T00:00:00Z\nHorário BRT: 2026-07-06T21:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-07T00:00:00Z"\, "LocalDate"
+ : "2026-07-06T17:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-095@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 95 - W86 x W88
+DTSTART;TZID=America/Sao_Paulo:20260707T130000
+DTEND;TZID=America/Sao_Paulo:20260707T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Fase: Oitavas de final\nGrupo/Rodada: Oitavas de final\nHorári
+ o UTC oficial: 2026-07-07T16:00:00Z\nHorário BRT: 2026-07-07T13:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-07T16:00:00Z"\, "LocalDate"
+ : "2026-07-07T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-096@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 96 - W85 x W87
+DTSTART;TZID=America/Sao_Paulo:20260707T170000
+DTEND;TZID=America/Sao_Paulo:20260707T200000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Fase: Oitavas de final\nGrupo/Rodada: Oitavas de final\nHorári
+ o UTC oficial: 2026-07-07T20:00:00Z\nHorário BRT: 2026-07-07T17:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-07T20:00:00Z"\, "LocalDate"
+ : "2026-07-07T13:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-097@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 97 - W89 x W90
+DTSTART;TZID=America/Sao_Paulo:20260709T170000
+DTEND;TZID=America/Sao_Paulo:20260709T200000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Fase: Quartas de final\nGrupo/Rodada: Quartas de final\nHorári
+ o UTC oficial: 2026-07-09T20:00:00Z\nHorário BRT: 2026-07-09T17:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-09T20:00:00Z"\, "LocalDate"
+ : "2026-07-09T16:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-098@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 98 - W93 x W94
+DTSTART;TZID=America/Sao_Paulo:20260710T160000
+DTEND;TZID=America/Sao_Paulo:20260710T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Fase: Quartas de final\nGrupo/Rodada: Quartas de final\nHorári
+ o UTC oficial: 2026-07-10T19:00:00Z\nHorário BRT: 2026-07-10T16:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-10T19:00:00Z"\, "LocalDate"
+ : "2026-07-10T12:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-099@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 99 - W91 x W92
+DTSTART;TZID=America/Sao_Paulo:20260711T180000
+DTEND;TZID=America/Sao_Paulo:20260711T210000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Fase: Quartas de final\nGrupo/Rodada: Quartas de final\nHorári
+ o UTC oficial: 2026-07-11T21:00:00Z\nHorário BRT: 2026-07-11T18:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-11T21:00:00Z"\, "LocalDate"
+ : "2026-07-11T17:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-100@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 100 - W95 x W96
+DTSTART;TZID=America/Sao_Paulo:20260711T220000
+DTEND;TZID=America/Sao_Paulo:20260712T010000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Fase: Quartas de final\nGrupo/Rodada: Quartas de final\nHorári
+ o UTC oficial: 2026-07-12T01:00:00Z\nHorário BRT: 2026-07-11T22:00:00-03:
+ 00\nHorário bruto da fonte: {"Date": "2026-07-12T01:00:00Z"\, "LocalDate"
+ : "2026-07-11T20:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: http
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/calendar/matc
+ hes?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.
+ 448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-101@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 101 - W97 x W98
+DTSTART;TZID=America/Sao_Paulo:20260714T160000
+DTEND;TZID=America/Sao_Paulo:20260714T190000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Fase: Semifinal\nGrupo/Rodada: Semifinal\nHorário UTC oficial:
+  2026-07-14T19:00:00Z\nHorário BRT: 2026-07-14T16:00:00-03:00\nHorário b
+ ruto da fonte: {"Date": "2026-07-14T19:00:00Z"\, "LocalDate": "2026-07-14T
+ 14:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa.c
+ om/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEndpo
+ int oficial usado: https://api.fifa.com/api/v3/calendar/matches?language=p
+ t&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-102@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 102 - W99 x W100
+DTSTART;TZID=America/Sao_Paulo:20260715T160000
+DTEND;TZID=America/Sao_Paulo:20260715T190000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Fase: Semifinal\nGrupo/Rodada: Semifinal\nHorário UTC oficial:
+  2026-07-15T19:00:00Z\nHorário BRT: 2026-07-15T16:00:00-03:00\nHorário b
+ ruto da fonte: {"Date": "2026-07-15T19:00:00Z"\, "LocalDate": "2026-07-15T
+ 15:00:00Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa.c
+ om/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEndpo
+ int oficial usado: https://api.fifa.com/api/v3/calendar/matches?language=p
+ t&count=500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-103@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 103 - RU101 x RU102
+DTSTART;TZID=America/Sao_Paulo:20260718T180000
+DTEND;TZID=America/Sao_Paulo:20260718T210000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Fase: Decisão do 3º lugar\nGrupo/Rodada: Decisão do 3º luga
+ r\nHorário UTC oficial: 2026-07-18T21:00:00Z\nHorário BRT: 2026-07-18T18
+ :00:00-03:00\nHorário bruto da fonte: {"Date": "2026-07-18T21:00:00Z"\, "
+ LocalDate": "2026-07-18T17:00:00Z"\, "TimeDefined": true}\nURL oficial da 
+ FIFA: https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa202
+ 6/scores-fixtures\nEndpoint oficial usado: https://api.fifa.com/api/v3/cal
+ endar/matches?language=pt&count=500&idSeason=285023\nGerado em: 2026-04-19
+ T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-104@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260419T203617Z
+SUMMARY:Copa do Mundo 2026 - Jogo 104 - W101 x W102
+DTSTART;TZID=America/Sao_Paulo:20260719T160000
+DTEND;TZID=America/Sao_Paulo:20260719T190000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Fase: Final\nGrupo/Rodada: Final\nHorário UTC oficial: 2026-07
+ -19T19:00:00Z\nHorário BRT: 2026-07-19T16:00:00-03:00\nHorário bruto da 
+ fonte: {"Date": "2026-07-19T19:00:00Z"\, "LocalDate": "2026-07-19T15:00:00
+ Z"\, "TimeDefined": true}\nURL oficial da FIFA: https://www.fifa.com/pt/to
+ urnaments/mens/worldcup/canadamexicousa2026/scores-fixtures\nEndpoint ofic
+ ial usado: https://api.fifa.com/api/v3/calendar/matches?language=pt&count=
+ 500&idSeason=285023\nGerado em: 2026-04-19T20:36:17.448002Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
