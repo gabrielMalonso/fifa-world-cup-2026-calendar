@@ -67,6 +67,16 @@ Estrutura principal:
   feed só com jogos do Brasil
 - `output/world_cup_2026_fixtures_sem_brasil_v2.ics`
   feed com todos os jogos, exceto os do Brasil
+- `output/world_cup_2026_source_matches_raw.json`
+  snapshot bruto da resposta de partidas da FIFA
+- `output/world_cup_2026_source_stages_raw.json`
+  snapshot bruto das fases da FIFA
+- `output/world_cup_2026_diff_summary.json`
+  diff estruturado entre a execução atual e a base anterior
+- `output/world_cup_2026_diff_summary.txt`
+  diff resumido e legível
+- `logs/last_run_summary.json`
+  resumo da última execução
 
 ## Publicação
 
@@ -86,6 +96,25 @@ URLs importantes:
   `https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_brasil_v2.ics`
 - feed sem Brasil:
   `https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_sem_brasil_v2.ics`
+
+## Fontes oficiais
+
+Fontes que devem ser usadas neste projeto:
+
+| Tipo | URL | Papel |
+| --- | --- | --- |
+| página oficial | `https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures` | referência humana da tabela |
+| API oficial de partidas | `https://api.fifa.com/api/v3/calendar/matches?language=pt&count=500&idSeason=285023` | fonte principal de ingestão |
+| API oficial de fases | `https://api.fifa.com/api/v3/stages?idSeason=285023&language=pt` | nomes de fase e apoio à normalização |
+| artigo oficial em PT | `https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/articles/copa-mundo-2026-tabela-jogos` | validação humana dos horários em Brasília |
+
+Regra prática:
+
+```text
+API da FIFA = fonte de verdade para ingestão
+artigo/PT = validação humana de horário
+site scores-fixtures = conferência visual
+```
 
 ## Funcionamento prático
 
@@ -108,6 +137,64 @@ Ao rodar:
 3. atualiza `JSON`, `CSV` e `ICS`;
 4. gera feeds separados para o Brasil;
 5. atualiza os arquivos que o GitHub Pages publica.
+
+## Como verificar e atualizar no futuro
+
+Use este fluxo sempre que voltar para conferir se a FIFA mudou algum jogo, horário ou fase.
+
+### Passo a passo
+
+1. abrir a fonte oficial e conferir se a tabela pública continua no ar
+2. consultar a API oficial de partidas e a API de fases
+3. capturar novamente os dados brutos da FIFA
+4. comparar os dados novos com `output/world_cup_2026_fixtures.json`
+5. verificar o diff gerado
+6. validar amostras sensíveis no artigo em português, principalmente horário de Brasília
+7. só atualizar os artefatos publicados se houver mudança real
+
+### Execução prática
+
+Comando principal:
+
+```bash
+python3 main.py
+```
+
+Esse comando já faz tudo o que importa:
+
+- busca a fonte oficial da FIFA
+- grava snapshots brutos em `output/world_cup_2026_source_matches_raw.json` e `output/world_cup_2026_source_stages_raw.json`
+- regenera `output/world_cup_2026_fixtures.json`
+- regenera `CSV` e `ICS`
+- compara com a base anterior
+- grava o diff em `output/world_cup_2026_diff_summary.json` e `output/world_cup_2026_diff_summary.txt`
+- atualiza `logs/last_run_summary.json`
+
+### Como decidir se houve mudança de verdade
+
+Olhar primeiro:
+
+- `output/world_cup_2026_diff_summary.txt`
+- `output/world_cup_2026_diff_summary.json`
+- `output/world_cup_2026_fixtures.json`
+
+Leitura prática:
+
+| Situação | Ação |
+| --- | --- |
+| diff zerado | não inventar atualização |
+| horários mudaram | validar no artigo/PT e publicar de novo |
+| fases ou grupos mudaram | revisar títulos, descrição e diff |
+| jogo novo/removido | tratar como mudança real e republicar |
+
+### Regras para futuras atualizações
+
+- Comparar sempre contra o `JSON` local existente antes de mexer no site.
+- Não tratar cache do Google Agenda como se fosse mudança de fonte.
+- Se a FIFA mudar algo, atualizar primeiro os artefatos locais e só depois publicar.
+- Se os feeds assinados sofrerem com cache velho do Google, considerar URL nova de feed apenas quando necessário.
+- Validar pelo menos uma amostra manual de horários em `America/Sao_Paulo` antes de concluir que está tudo certo.
+- Se nada mudou, dizer claramente que nada mudou. Não fabricar trabalho.
 
 ## Fluxo do frontend
 
