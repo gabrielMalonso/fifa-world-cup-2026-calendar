@@ -17,1465 +17,1416 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fifa-wc2026-match-001@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
+DTSTAMP:20260420T135320Z
 SUMMARY:México x África do Sul - Jogo 1 - Copa do Mundo 2026
 DTSTART;TZID=America/Sao_Paulo:20260611T160000
 DTEND;TZID=America/Sao_Paulo:20260611T190000
 LOCATION:Estádio da Cidade do México\, Cidade do México\, México
 DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 11/06/2026 à
- s 16h00\nLocal: Estádio da Cidade do México\, Cidade do México\, Méxic
- o\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/
- canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-002@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:República da Coreia x Tchéquia - Jogo 2 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260611T230000
-DTEND;TZID=America/Sao_Paulo:20260612T020000
-LOCATION:Estádio de Guadalajara\, Guadalajara\, México
-DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 11/06/2026 à
- s 23h00\nLocal: Estádio de Guadalajara\, Guadalajara\, México\nFonte ofi
- cial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexico
- usa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-003@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Canadá x Bósnia e Herzegovina - Jogo 3 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260612T160000
-DTEND;TZID=America/Sao_Paulo:20260612T190000
-LOCATION:Estádio de Toronto \, Toronto\, Canadá
-DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 12/06/2026 à
- s 16h00\nLocal: Estádio de Toronto \, Toronto\, Canadá\nFonte oficial: F
- IFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026
- /scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-004@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:EUA x Paraguai - Jogo 4 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260612T220000
-DTEND;TZID=America/Sao_Paulo:20260613T010000
-LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 12/06/2026 à
- s 22h00\nLocal: Estádio de Los Angeles\, Los Angeles\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-005@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Haiti x Escócia - Jogo 5 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260613T220000
-DTEND;TZID=America/Sao_Paulo:20260614T010000
-LOCATION:Estádio de Boston\, Boston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 13/06/2026 à
- s 22h00\nLocal: Estádio de Boston\, Boston\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-006@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Austrália x Turquia - Jogo 6 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260614T010000
-DTEND;TZID=America/Sao_Paulo:20260614T040000
-LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
-DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 14/06/2026 à
- s 01h00\nLocal: BC Place de Vancouver\, Vancouver\, Canadá\nFonte oficial
- : FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2
- 026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-007@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:🇧🇷 Brasil x Marrocos - Jogo 7 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260613T190000
-DTEND;TZID=America/Sao_Paulo:20260613T220000
-LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 13/06/2026 à
- s 19h00\nLocal: Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados 
- Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worl
- dcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-008@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Catar x Suíça - Jogo 8 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260613T160000
-DTEND;TZID=America/Sao_Paulo:20260613T190000
-LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
- isco\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 13/06/2026 à
- s 16h00\nLocal: Estádio da Baía de São Francisco\, Área da baía de S
- ão Francisco\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/
- pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-009@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Costa do Marfim x Equador - Jogo 9 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260614T200000
-DTEND;TZID=America/Sao_Paulo:20260614T230000
-LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 14/06/2026 à
- s 20h00\nLocal: Estádio de Filadélfia\, Filadélfia\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-010@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Alemanha x Curaçau - Jogo 10 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260614T140000
-DTEND;TZID=America/Sao_Paulo:20260614T170000
-LOCATION:Estádio de Houston\, Houston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 14/06/2026 à
- s 14h00\nLocal: Estádio de Houston\, Houston\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-011@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Holanda x Japão - Jogo 11 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260614T170000
-DTEND;TZID=America/Sao_Paulo:20260614T200000
-LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 14/06/2026 à
- s 17h00\nLocal: Estádio de Dallas\, Dallas\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-012@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Suécia x Tunísia - Jogo 12 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260614T230000
-DTEND;TZID=America/Sao_Paulo:20260615T020000
-LOCATION:Estádio de Monterrey\, Monterrey\, México
-DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 14/06/2026 à
- s 23h00\nLocal: Estádio de Monterrey\, Monterrey\, México\nFonte oficial
- : FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2
- 026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-013@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Arábia Saudita x Uruguai - Jogo 13 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260615T190000
-DTEND;TZID=America/Sao_Paulo:20260615T220000
-LOCATION:Estádio de Miami\, Miami\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 15/06/2026 à
- s 19h00\nLocal: Estádio de Miami\, Miami\, Estados Unidos\nFonte oficial:
-  FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
- 26/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-014@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Espanha x Cabo Verde - Jogo 14 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260615T130000
-DTEND;TZID=America/Sao_Paulo:20260615T160000
-LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 15/06/2026 à
- s 13h00\nLocal: Estádio de Atlanta\, Atlanta\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-015@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:RI do Irã x Nova Zelândia - Jogo 15 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260615T220000
-DTEND;TZID=America/Sao_Paulo:20260616T010000
-LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 15/06/2026 à
- s 22h00\nLocal: Estádio de Los Angeles\, Los Angeles\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-016@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Bélgica x Egito - Jogo 16 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260615T160000
-DTEND;TZID=America/Sao_Paulo:20260615T190000
-LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 15/06/2026 à
- s 16h00\nLocal: Estádio de Seattle\, Seattle\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-017@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:França x Senegal - Jogo 17 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260616T160000
-DTEND;TZID=America/Sao_Paulo:20260616T190000
-LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 16/06/2026 à
- s 16h00\nLocal: Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados 
- Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worl
- dcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-018@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Iraque x Noruega - Jogo 18 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260616T190000
-DTEND;TZID=America/Sao_Paulo:20260616T220000
-LOCATION:Estádio de Boston\, Boston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 16/06/2026 à
- s 19h00\nLocal: Estádio de Boston\, Boston\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-019@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Argentina x Argélia - Jogo 19 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260616T220000
-DTEND;TZID=America/Sao_Paulo:20260617T010000
-LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 16/06/2026 à
- s 22h00\nLocal: Estádio de Kansas City\, Kansas City\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-020@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Áustria x Jordânia - Jogo 20 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260617T010000
-DTEND;TZID=America/Sao_Paulo:20260617T040000
-LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
- isco\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 17/06/2026 à
- s 01h00\nLocal: Estádio da Baía de São Francisco\, Área da baía de S
- ão Francisco\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/
- pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-021@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Gana x Panamá - Jogo 21 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260617T200000
-DTEND;TZID=America/Sao_Paulo:20260617T230000
-LOCATION:Estádio de Toronto \, Toronto\, Canadá
-DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 17/06/2026 à
- s 20h00\nLocal: Estádio de Toronto \, Toronto\, Canadá\nFonte oficial: F
- IFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026
- /scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-022@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Inglaterra x Croácia - Jogo 22 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260617T170000
-DTEND;TZID=America/Sao_Paulo:20260617T200000
-LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 17/06/2026 à
- s 17h00\nLocal: Estádio de Dallas\, Dallas\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-023@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Portugal x RD do Congo - Jogo 23 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260617T140000
-DTEND;TZID=America/Sao_Paulo:20260617T170000
-LOCATION:Estádio de Houston\, Houston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 17/06/2026 à
- s 14h00\nLocal: Estádio de Houston\, Houston\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-024@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Uzbequistão x Colômbia - Jogo 24 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260617T230000
-DTEND;TZID=America/Sao_Paulo:20260618T020000
-LOCATION:Estádio da Cidade do México\, Cidade do México\, México
-DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 17/06/2026 à
- s 23h00\nLocal: Estádio da Cidade do México\, Cidade do México\, Méxic
- o\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/
- canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-025@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Tchéquia x África do Sul - Jogo 25 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260618T130000
-DTEND;TZID=America/Sao_Paulo:20260618T160000
-LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 18/06/2026 à
- s 13h00\nLocal: Estádio de Atlanta\, Atlanta\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-026@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Suíça x Bósnia e Herzegovina - Jogo 26 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260618T160000
-DTEND;TZID=America/Sao_Paulo:20260618T190000
-LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 18/06/2026 à
- s 16h00\nLocal: Estádio de Los Angeles\, Los Angeles\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-027@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Canadá x Catar - Jogo 27 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260618T190000
-DTEND;TZID=America/Sao_Paulo:20260618T220000
-LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
-DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 18/06/2026 à
- s 19h00\nLocal: BC Place de Vancouver\, Vancouver\, Canadá\nFonte oficial
- : FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2
- 026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-028@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:México x República da Coreia - Jogo 28 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260618T220000
-DTEND;TZID=America/Sao_Paulo:20260619T010000
-LOCATION:Estádio de Guadalajara\, Guadalajara\, México
-DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 18/06/2026 à
- s 22h00\nLocal: Estádio de Guadalajara\, Guadalajara\, México\nFonte ofi
- cial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexico
- usa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-029@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:🇧🇷 Brasil x Haiti - Jogo 29 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260619T213000
-DTEND;TZID=America/Sao_Paulo:20260620T003000
-LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 19/06/2026 à
- s 21h30\nLocal: Estádio de Filadélfia\, Filadélfia\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-030@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Escócia x Marrocos - Jogo 30 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260619T190000
-DTEND;TZID=America/Sao_Paulo:20260619T220000
-LOCATION:Estádio de Boston\, Boston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 19/06/2026 à
- s 19h00\nLocal: Estádio de Boston\, Boston\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-031@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Turquia x Paraguai - Jogo 31 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260620T000000
-DTEND;TZID=America/Sao_Paulo:20260620T030000
-LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
- isco\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 20/06/2026 à
- s 00h00\nLocal: Estádio da Baía de São Francisco\, Área da baía de S
- ão Francisco\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/
- pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-032@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:EUA x Austrália - Jogo 32 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260619T160000
-DTEND;TZID=America/Sao_Paulo:20260619T190000
-LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 19/06/2026 à
- s 16h00\nLocal: Estádio de Seattle\, Seattle\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-033@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Alemanha x Costa do Marfim - Jogo 33 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260620T170000
-DTEND;TZID=America/Sao_Paulo:20260620T200000
-LOCATION:Estádio de Toronto \, Toronto\, Canadá
-DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 20/06/2026 à
- s 17h00\nLocal: Estádio de Toronto \, Toronto\, Canadá\nFonte oficial: F
- IFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026
- /scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-034@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Equador x Curaçau - Jogo 34 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260620T210000
-DTEND;TZID=America/Sao_Paulo:20260621T000000
-LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 20/06/2026 à
- s 21h00\nLocal: Estádio de Kansas City\, Kansas City\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-035@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Holanda x Suécia - Jogo 35 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260620T140000
-DTEND;TZID=America/Sao_Paulo:20260620T170000
-LOCATION:Estádio de Houston\, Houston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 20/06/2026 à
- s 14h00\nLocal: Estádio de Houston\, Houston\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-036@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Tunísia x Japão - Jogo 36 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260621T010000
-DTEND;TZID=America/Sao_Paulo:20260621T040000
-LOCATION:Estádio de Monterrey\, Monterrey\, México
-DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 21/06/2026 à
- s 01h00\nLocal: Estádio de Monterrey\, Monterrey\, México\nFonte oficial
- : FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2
- 026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-037@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Uruguai x Cabo Verde - Jogo 37 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260621T190000
-DTEND;TZID=America/Sao_Paulo:20260621T220000
-LOCATION:Estádio de Miami\, Miami\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 21/06/2026 à
- s 19h00\nLocal: Estádio de Miami\, Miami\, Estados Unidos\nFonte oficial:
-  FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
- 26/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-038@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Espanha x Arábia Saudita - Jogo 38 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260621T130000
-DTEND;TZID=America/Sao_Paulo:20260621T160000
-LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 21/06/2026 à
- s 13h00\nLocal: Estádio de Atlanta\, Atlanta\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-039@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Bélgica x RI do Irã - Jogo 39 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260621T160000
-DTEND;TZID=America/Sao_Paulo:20260621T190000
-LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 21/06/2026 à
- s 16h00\nLocal: Estádio de Los Angeles\, Los Angeles\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-040@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Nova Zelândia x Egito - Jogo 40 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260621T220000
-DTEND;TZID=America/Sao_Paulo:20260622T010000
-LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
-DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 21/06/2026 à
- s 22h00\nLocal: BC Place de Vancouver\, Vancouver\, Canadá\nFonte oficial
- : FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2
- 026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-041@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Noruega x Senegal - Jogo 41 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260622T210000
-DTEND;TZID=America/Sao_Paulo:20260623T000000
-LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 22/06/2026 à
- s 21h00\nLocal: Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados 
- Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worl
- dcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-042@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:França x Iraque - Jogo 42 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260622T180000
-DTEND;TZID=America/Sao_Paulo:20260622T210000
-LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 22/06/2026 à
- s 18h00\nLocal: Estádio de Filadélfia\, Filadélfia\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-043@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Argentina x Áustria - Jogo 43 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260622T140000
-DTEND;TZID=America/Sao_Paulo:20260622T170000
-LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 22/06/2026 à
- s 14h00\nLocal: Estádio de Dallas\, Dallas\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-044@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Jordânia x Argélia - Jogo 44 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260623T000000
-DTEND;TZID=America/Sao_Paulo:20260623T030000
-LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
- isco\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 23/06/2026 à
- s 00h00\nLocal: Estádio da Baía de São Francisco\, Área da baía de S
- ão Francisco\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/
- pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-045@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Inglaterra x Gana - Jogo 45 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260623T170000
-DTEND;TZID=America/Sao_Paulo:20260623T200000
-LOCATION:Estádio de Boston\, Boston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 23/06/2026 à
- s 17h00\nLocal: Estádio de Boston\, Boston\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-046@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Panamá x Croácia - Jogo 46 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260623T200000
-DTEND;TZID=America/Sao_Paulo:20260623T230000
-LOCATION:Estádio de Toronto \, Toronto\, Canadá
-DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 23/06/2026 à
- s 20h00\nLocal: Estádio de Toronto \, Toronto\, Canadá\nFonte oficial: F
- IFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026
- /scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-047@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Portugal x Uzbequistão - Jogo 47 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260623T140000
-DTEND;TZID=America/Sao_Paulo:20260623T170000
-LOCATION:Estádio de Houston\, Houston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 23/06/2026 à
- s 14h00\nLocal: Estádio de Houston\, Houston\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-048@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Colômbia x RD do Congo - Jogo 48 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260623T230000
-DTEND;TZID=America/Sao_Paulo:20260624T020000
-LOCATION:Estádio de Guadalajara\, Guadalajara\, México
-DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 23/06/2026 à
- s 23h00\nLocal: Estádio de Guadalajara\, Guadalajara\, México\nFonte ofi
- cial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexico
- usa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-049@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:🇧🇷 Escócia x Brasil - Jogo 49 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260624T190000
-DTEND;TZID=America/Sao_Paulo:20260624T220000
-LOCATION:Estádio de Miami\, Miami\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 24/06/2026 à
- s 19h00\nLocal: Estádio de Miami\, Miami\, Estados Unidos\nFonte oficial:
-  FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
- 26/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-050@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Marrocos x Haiti - Jogo 50 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260624T190000
-DTEND;TZID=America/Sao_Paulo:20260624T220000
-LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 24/06/2026 à
- s 19h00\nLocal: Estádio de Atlanta\, Atlanta\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-051@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Suíça x Canadá - Jogo 51 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260624T160000
-DTEND;TZID=America/Sao_Paulo:20260624T190000
-LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
-DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 24/06/2026 à
- s 16h00\nLocal: BC Place de Vancouver\, Vancouver\, Canadá\nFonte oficial
- : FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2
- 026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-052@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Bósnia e Herzegovina x Catar - Jogo 52 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260624T160000
-DTEND;TZID=America/Sao_Paulo:20260624T190000
-LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 24/06/2026 à
- s 16h00\nLocal: Estádio de Seattle\, Seattle\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-053@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Tchéquia x México - Jogo 53 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260624T220000
-DTEND;TZID=America/Sao_Paulo:20260625T010000
-LOCATION:Estádio da Cidade do México\, Cidade do México\, México
-DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 24/06/2026 à
- s 22h00\nLocal: Estádio da Cidade do México\, Cidade do México\, Méxic
- o\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/
- canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-054@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:África do Sul x República da Coreia - Jogo 54 - Copa do Mundo 202
- 6
-DTSTART;TZID=America/Sao_Paulo:20260624T220000
-DTEND;TZID=America/Sao_Paulo:20260625T010000
-LOCATION:Estádio de Monterrey\, Monterrey\, México
-DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 24/06/2026 à
- s 22h00\nLocal: Estádio de Monterrey\, Monterrey\, México\nFonte oficial
- : FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2
- 026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-055@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Curaçau x Costa do Marfim - Jogo 55 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260625T170000
-DTEND;TZID=America/Sao_Paulo:20260625T200000
-LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 25/06/2026 à
- s 17h00\nLocal: Estádio de Filadélfia\, Filadélfia\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-056@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Equador x Alemanha - Jogo 56 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260625T170000
-DTEND;TZID=America/Sao_Paulo:20260625T200000
-LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 25/06/2026 à
- s 17h00\nLocal: Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados 
- Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worl
- dcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-057@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Japão x Suécia - Jogo 57 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260625T200000
-DTEND;TZID=America/Sao_Paulo:20260625T230000
-LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 25/06/2026 à
- s 20h00\nLocal: Estádio de Dallas\, Dallas\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-058@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Tunísia x Holanda - Jogo 58 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260625T200000
-DTEND;TZID=America/Sao_Paulo:20260625T230000
-LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 25/06/2026 à
- s 20h00\nLocal: Estádio de Kansas City\, Kansas City\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-059@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Turquia x EUA - Jogo 59 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260625T230000
-DTEND;TZID=America/Sao_Paulo:20260626T020000
-LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 25/06/2026 à
- s 23h00\nLocal: Estádio de Los Angeles\, Los Angeles\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-060@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Paraguai x Austrália - Jogo 60 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260625T230000
-DTEND;TZID=America/Sao_Paulo:20260626T020000
-LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
- isco\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 25/06/2026 à
- s 23h00\nLocal: Estádio da Baía de São Francisco\, Área da baía de S
- ão Francisco\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/
- pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-061@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Noruega x França - Jogo 61 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260626T160000
-DTEND;TZID=America/Sao_Paulo:20260626T190000
-LOCATION:Estádio de Boston\, Boston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 26/06/2026 à
- s 16h00\nLocal: Estádio de Boston\, Boston\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-062@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Senegal x Iraque - Jogo 62 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260626T160000
-DTEND;TZID=America/Sao_Paulo:20260626T190000
-LOCATION:Estádio de Toronto \, Toronto\, Canadá
-DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 26/06/2026 à
- s 16h00\nLocal: Estádio de Toronto \, Toronto\, Canadá\nFonte oficial: F
- IFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026
- /scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-063@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Egito x RI do Irã - Jogo 63 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260627T000000
-DTEND;TZID=America/Sao_Paulo:20260627T030000
-LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 27/06/2026 à
- s 00h00\nLocal: Estádio de Seattle\, Seattle\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-064@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Nova Zelândia x Bélgica - Jogo 64 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260627T000000
-DTEND;TZID=America/Sao_Paulo:20260627T030000
-LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
-DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 27/06/2026 à
- s 00h00\nLocal: BC Place de Vancouver\, Vancouver\, Canadá\nFonte oficial
- : FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2
- 026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-065@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Cabo Verde x Arábia Saudita - Jogo 65 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260626T210000
-DTEND;TZID=America/Sao_Paulo:20260627T000000
-LOCATION:Estádio de Houston\, Houston\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 26/06/2026 à
- s 21h00\nLocal: Estádio de Houston\, Houston\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-066@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Uruguai x Espanha - Jogo 66 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260626T210000
-DTEND;TZID=America/Sao_Paulo:20260627T000000
-LOCATION:Estádio de Guadalajara\, Guadalajara\, México
-DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 26/06/2026 à
- s 21h00\nLocal: Estádio de Guadalajara\, Guadalajara\, México\nFonte ofi
- cial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexico
- usa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-067@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Panamá x Inglaterra - Jogo 67 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260627T180000
-DTEND;TZID=America/Sao_Paulo:20260627T210000
-LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 27/06/2026 à
- s 18h00\nLocal: Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados 
- Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worl
- dcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-068@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Croácia x Gana - Jogo 68 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260627T180000
-DTEND;TZID=America/Sao_Paulo:20260627T210000
-LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 27/06/2026 à
- s 18h00\nLocal: Estádio de Filadélfia\, Filadélfia\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-069@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Argélia x Áustria - Jogo 69 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260627T230000
-DTEND;TZID=America/Sao_Paulo:20260628T020000
-LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 27/06/2026 à
- s 23h00\nLocal: Estádio de Kansas City\, Kansas City\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-070@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Jordânia x Argentina - Jogo 70 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260627T230000
-DTEND;TZID=America/Sao_Paulo:20260628T020000
-LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 27/06/2026 à
- s 23h00\nLocal: Estádio de Dallas\, Dallas\, Estados Unidos\nFonte oficia
- l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
- 2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-071@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:Colômbia x Portugal - Jogo 71 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260627T203000
-DTEND;TZID=America/Sao_Paulo:20260627T233000
-LOCATION:Estádio de Miami\, Miami\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 27/06/2026 à
- s 20h30\nLocal: Estádio de Miami\, Miami\, Estados Unidos\nFonte oficial:
-  FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
- 26/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-072@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:RD do Congo x Uzbequistão - Jogo 72 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260627T203000
-DTEND;TZID=America/Sao_Paulo:20260627T233000
-LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
-DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 27/06/2026 à
- s 20h30\nLocal: Estádio de Atlanta\, Atlanta\, Estados Unidos\nFonte ofic
- ial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicou
- sa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-073@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:2A x 2B - Jogo 73 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260628T160000
-DTEND;TZID=America/Sao_Paulo:20260628T190000
-LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  28/06/2026 às 16h00\nLocal: Estádio de Los Angeles\, Los Angeles\, Esta
- dos Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/
- worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-074@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1E x 3ABCDF - Jogo 74 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260629T173000
-DTEND;TZID=America/Sao_Paulo:20260629T203000
-LOCATION:Estádio de Boston\, Boston\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  29/06/2026 às 17h30\nLocal: Estádio de Boston\, Boston\, Estados Unidos
- \nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/c
- anadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-075@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1F x 2C - Jogo 75 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260629T220000
-DTEND;TZID=America/Sao_Paulo:20260630T010000
-LOCATION:Estádio de Monterrey\, Monterrey\, México
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  29/06/2026 às 22h00\nLocal: Estádio de Monterrey\, Monterrey\, México\
- nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/ca
- nadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-076@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1C x 2F - Jogo 76 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260629T140000
-DTEND;TZID=America/Sao_Paulo:20260629T170000
-LOCATION:Estádio de Houston\, Houston\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  29/06/2026 às 14h00\nLocal: Estádio de Houston\, Houston\, Estados Unid
- os\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup
- /canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-077@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1I x 3CDFGH - Jogo 77 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260630T180000
-DTEND;TZID=America/Sao_Paulo:20260630T210000
-LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  30/06/2026 às 18h00\nLocal: Estádio de Nova York/Nova Jersey\, Nova Ior
- que\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournam
- ents/mens/worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-078@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:2E x 2I - Jogo 78 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260630T140000
-DTEND;TZID=America/Sao_Paulo:20260630T170000
-LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  30/06/2026 às 14h00\nLocal: Estádio de Dallas\, Dallas\, Estados Unidos
- \nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/c
- anadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-079@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1A x 3CEFHI - Jogo 79 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260630T220000
-DTEND;TZID=America/Sao_Paulo:20260701T010000
-LOCATION:Estádio da Cidade do México\, Cidade do México\, México
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  30/06/2026 às 22h00\nLocal: Estádio da Cidade do México\, Cidade do M
- éxico\, México\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments
- /mens/worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-080@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1L x 3EHIJK - Jogo 80 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260701T130000
-DTEND;TZID=America/Sao_Paulo:20260701T160000
-LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  01/07/2026 às 13h00\nLocal: Estádio de Atlanta\, Atlanta\, Estados Unid
- os\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup
- /canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-081@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1D x 3BEFIJ - Jogo 81 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260701T210000
-DTEND;TZID=America/Sao_Paulo:20260702T000000
-LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
- isco\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  01/07/2026 às 21h00\nLocal: Estádio da Baía de São Francisco\, Área 
- da baía de São Francisco\, Estados Unidos\nFonte oficial: FIFA\nhttps://
+ s 16h00\nLocal: Cidade do México\, México\nFonte oficial: FIFA\nhttps://
  www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtu
  res
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-wc2026-match-082@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1G x 3AEHIJ - Jogo 82 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260701T170000
-DTEND;TZID=America/Sao_Paulo:20260701T200000
-LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  01/07/2026 às 17h00\nLocal: Estádio de Seattle\, Seattle\, Estados Unid
- os\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup
- /canadamexicousa2026/scores-fixtures
+UID:fifa-wc2026-match-002@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:República da Coreia x Tchéquia - Jogo 2 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260611T230000
+DTEND;TZID=America/Sao_Paulo:20260612T020000
+LOCATION:Estádio de Guadalajara\, Guadalajara\, México
+DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 11/06/2026 à
+ s 23h00\nLocal: Guadalajara\, México\nFonte oficial: FIFA\nhttps://www.fi
+ fa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-wc2026-match-083@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:2K x 2L - Jogo 83 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260702T200000
-DTEND;TZID=America/Sao_Paulo:20260702T230000
+UID:fifa-wc2026-match-003@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Canadá x Bósnia e Herzegovina - Jogo 3 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260612T160000
+DTEND;TZID=America/Sao_Paulo:20260612T190000
 LOCATION:Estádio de Toronto \, Toronto\, Canadá
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  02/07/2026 às 20h00\nLocal: Estádio de Toronto \, Toronto\, Canadá\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
+DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 12/06/2026 à
+ s 16h00\nLocal: Toronto\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa.c
+ om/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-wc2026-match-084@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1H x 2J - Jogo 84 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260702T160000
-DTEND;TZID=America/Sao_Paulo:20260702T190000
+UID:fifa-wc2026-match-004@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:EUA x Paraguai - Jogo 4 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260612T220000
+DTEND;TZID=America/Sao_Paulo:20260613T010000
 LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  02/07/2026 às 16h00\nLocal: Estádio de Los Angeles\, Los Angeles\, Esta
- dos Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/
- worldcup/canadamexicousa2026/scores-fixtures
+DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 12/06/2026 à
+ s 22h00\nLocal: Los Angeles\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-wc2026-match-085@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1B x 3EFGIJ - Jogo 85 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260703T000000
-DTEND;TZID=America/Sao_Paulo:20260703T030000
-LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  03/07/2026 às 00h00\nLocal: BC Place de Vancouver\, Vancouver\, Canadá\
- nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/ca
- nadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-086@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1J x 2H - Jogo 86 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260703T190000
-DTEND;TZID=America/Sao_Paulo:20260703T220000
-LOCATION:Estádio de Miami\, Miami\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  03/07/2026 às 19h00\nLocal: Estádio de Miami\, Miami\, Estados Unidos\n
- Fonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/can
- adamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-087@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:1K x 3DEIJL - Jogo 87 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260703T223000
-DTEND;TZID=America/Sao_Paulo:20260704T013000
-LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  03/07/2026 às 22h30\nLocal: Estádio de Kansas City\, Kansas City\, Esta
- dos Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/
- worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-088@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:2D x 2G - Jogo 88 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260703T150000
-DTEND;TZID=America/Sao_Paulo:20260703T180000
-LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
-DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
-  03/07/2026 às 15h00\nLocal: Estádio de Dallas\, Dallas\, Estados Unidos
- \nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/c
- anadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-089@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W74 x W77 - Jogo 89 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260704T180000
-DTEND;TZID=America/Sao_Paulo:20260704T210000
-LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
-DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
- 4/07/2026 às 18h00\nLocal: Estádio de Filadélfia\, Filadélfia\, Estado
- s Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/wo
- rldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-090@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W73 x W75 - Jogo 90 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260704T140000
-DTEND;TZID=America/Sao_Paulo:20260704T170000
-LOCATION:Estádio de Houston\, Houston\, Estados Unidos
-DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
- 4/07/2026 às 14h00\nLocal: Estádio de Houston\, Houston\, Estados Unidos
- \nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/c
- anadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-091@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W76 x W78 - Jogo 91 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260705T170000
-DTEND;TZID=America/Sao_Paulo:20260705T200000
-LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
-DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
- 5/07/2026 às 17h00\nLocal: Estádio de Nova York/Nova Jersey\, Nova Iorqu
- e\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournamen
- ts/mens/worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-092@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W79 x W80 - Jogo 92 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260705T210000
-DTEND;TZID=America/Sao_Paulo:20260706T000000
-LOCATION:Estádio da Cidade do México\, Cidade do México\, México
-DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
- 5/07/2026 às 21h00\nLocal: Estádio da Cidade do México\, Cidade do Méx
- ico\, México\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/me
- ns/worldcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-093@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W83 x W84 - Jogo 93 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260706T160000
-DTEND;TZID=America/Sao_Paulo:20260706T190000
-LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
-DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
- 6/07/2026 às 16h00\nLocal: Estádio de Dallas\, Dallas\, Estados Unidos\n
- Fonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/can
- adamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-094@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W81 x W82 - Jogo 94 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260706T210000
-DTEND;TZID=America/Sao_Paulo:20260707T000000
-LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
-DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
- 6/07/2026 às 21h00\nLocal: Estádio de Seattle\, Seattle\, Estados Unidos
- \nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/c
- anadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-095@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W86 x W88 - Jogo 95 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260707T130000
-DTEND;TZID=America/Sao_Paulo:20260707T160000
-LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
-DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
- 7/07/2026 às 13h00\nLocal: Estádio de Atlanta\, Atlanta\, Estados Unidos
- \nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/c
- anadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-096@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W85 x W87 - Jogo 96 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260707T170000
-DTEND;TZID=America/Sao_Paulo:20260707T200000
-LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
-DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
- 7/07/2026 às 17h00\nLocal: BC Place de Vancouver\, Vancouver\, Canadá\nF
- onte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/cana
- damexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc2026-match-097@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W89 x W90 - Jogo 97 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260709T170000
-DTEND;TZID=America/Sao_Paulo:20260709T200000
+UID:fifa-wc2026-match-005@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Haiti x Escócia - Jogo 5 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260613T220000
+DTEND;TZID=America/Sao_Paulo:20260614T010000
 LOCATION:Estádio de Boston\, Boston\, Estados Unidos
-DESCRIPTION:Quartas de final • Quartas de final\nHorário de Brasília: 0
- 9/07/2026 às 17h00\nLocal: Estádio de Boston\, Boston\, Estados Unidos\n
- Fonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/can
- adamexicousa2026/scores-fixtures
+DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 13/06/2026 à
+ s 22h00\nLocal: Boston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-wc2026-match-098@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W93 x W94 - Jogo 98 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260710T160000
-DTEND;TZID=America/Sao_Paulo:20260710T190000
-LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
-DESCRIPTION:Quartas de final • Quartas de final\nHorário de Brasília: 1
- 0/07/2026 às 16h00\nLocal: Estádio de Los Angeles\, Los Angeles\, Estado
- s Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/wo
- rldcup/canadamexicousa2026/scores-fixtures
+UID:fifa-wc2026-match-006@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Austrália x Turquia - Jogo 6 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260614T010000
+DTEND;TZID=America/Sao_Paulo:20260614T040000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 14/06/2026 à
+ s 01h00\nLocal: Vancouver\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-wc2026-match-099@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W91 x W92 - Jogo 99 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260711T180000
-DTEND;TZID=America/Sao_Paulo:20260711T210000
-LOCATION:Estádio de Miami\, Miami\, Estados Unidos
-DESCRIPTION:Quartas de final • Quartas de final\nHorário de Brasília: 1
- 1/07/2026 às 18h00\nLocal: Estádio de Miami\, Miami\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
+UID:fifa-wc2026-match-007@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:🇧🇷 Brasil x Marrocos - Jogo 7 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260613T190000
+DTEND;TZID=America/Sao_Paulo:20260613T220000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 13/06/2026 à
+ s 19h00\nLocal: Nova Iorque\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-wc2026-match-100@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W95 x W96 - Jogo 100 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260711T220000
-DTEND;TZID=America/Sao_Paulo:20260712T010000
-LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
-DESCRIPTION:Quartas de final • Quartas de final\nHorário de Brasília: 1
- 1/07/2026 às 22h00\nLocal: Estádio de Kansas City\, Kansas City\, Estado
- s Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/wo
- rldcup/canadamexicousa2026/scores-fixtures
+UID:fifa-wc2026-match-008@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Catar x Suíça - Jogo 8 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260613T160000
+DTEND;TZID=America/Sao_Paulo:20260613T190000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 13/06/2026 à
+ s 16h00\nLocal: Área da baía de São Francisco\, Estados Unidos\nFonte o
+ ficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexi
+ cousa2026/scores-fixtures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-wc2026-match-101@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:W97 x W98 - Jogo 101 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260714T160000
-DTEND;TZID=America/Sao_Paulo:20260714T190000
+UID:fifa-wc2026-match-009@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Costa do Marfim x Equador - Jogo 9 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260614T200000
+DTEND;TZID=America/Sao_Paulo:20260614T230000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 14/06/2026 à
+ s 20h00\nLocal: Filadélfia\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-010@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Alemanha x Curaçau - Jogo 10 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260614T140000
+DTEND;TZID=America/Sao_Paulo:20260614T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 14/06/2026 à
+ s 14h00\nLocal: Houston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-011@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Holanda x Japão - Jogo 11 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260614T170000
+DTEND;TZID=America/Sao_Paulo:20260614T200000
 LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
-DESCRIPTION:Semifinal • Semifinal\nHorário de Brasília: 14/07/2026 às 
- 16h00\nLocal: Estádio de Dallas\, Dallas\, Estados Unidos\nFonte oficial:
+DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 14/06/2026 à
+ s 17h00\nLocal: Dallas\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-012@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Suécia x Tunísia - Jogo 12 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260614T230000
+DTEND;TZID=America/Sao_Paulo:20260615T020000
+LOCATION:Estádio de Monterrey\, Monterrey\, México
+DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 14/06/2026 à
+ s 23h00\nLocal: Monterrey\, México\nFonte oficial: FIFA\nhttps://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-013@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Arábia Saudita x Uruguai - Jogo 13 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260615T190000
+DTEND;TZID=America/Sao_Paulo:20260615T220000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 15/06/2026 à
+ s 19h00\nLocal: Miami\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.f
+ ifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-014@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Espanha x Cabo Verde - Jogo 14 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260615T130000
+DTEND;TZID=America/Sao_Paulo:20260615T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 15/06/2026 à
+ s 13h00\nLocal: Atlanta\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-015@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:RI do Irã x Nova Zelândia - Jogo 15 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260615T220000
+DTEND;TZID=America/Sao_Paulo:20260616T010000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 15/06/2026 à
+ s 22h00\nLocal: Los Angeles\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-016@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Bélgica x Egito - Jogo 16 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260615T160000
+DTEND;TZID=America/Sao_Paulo:20260615T190000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 15/06/2026 à
+ s 16h00\nLocal: Seattle\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-017@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:França x Senegal - Jogo 17 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260616T160000
+DTEND;TZID=America/Sao_Paulo:20260616T190000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 16/06/2026 à
+ s 16h00\nLocal: Nova Iorque\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-018@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Iraque x Noruega - Jogo 18 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260616T190000
+DTEND;TZID=America/Sao_Paulo:20260616T220000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 16/06/2026 à
+ s 19h00\nLocal: Boston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-019@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Argentina x Argélia - Jogo 19 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260616T220000
+DTEND;TZID=America/Sao_Paulo:20260617T010000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 16/06/2026 à
+ s 22h00\nLocal: Kansas City\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-020@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Áustria x Jordânia - Jogo 20 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260617T010000
+DTEND;TZID=America/Sao_Paulo:20260617T040000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 17/06/2026 à
+ s 01h00\nLocal: Área da baía de São Francisco\, Estados Unidos\nFonte o
+ ficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexi
+ cousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-021@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Gana x Panamá - Jogo 21 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260617T200000
+DTEND;TZID=America/Sao_Paulo:20260617T230000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 17/06/2026 à
+ s 20h00\nLocal: Toronto\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa.c
+ om/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-022@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Inglaterra x Croácia - Jogo 22 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260617T170000
+DTEND;TZID=America/Sao_Paulo:20260617T200000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 17/06/2026 à
+ s 17h00\nLocal: Dallas\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-023@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Portugal x RD do Congo - Jogo 23 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260617T140000
+DTEND;TZID=America/Sao_Paulo:20260617T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 17/06/2026 à
+ s 14h00\nLocal: Houston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-024@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Uzbequistão x Colômbia - Jogo 24 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260617T230000
+DTEND;TZID=America/Sao_Paulo:20260618T020000
+LOCATION:Estádio da Cidade do México\, Cidade do México\, México
+DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 17/06/2026 à
+ s 23h00\nLocal: Cidade do México\, México\nFonte oficial: FIFA\nhttps://
+ www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtu
+ res
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-025@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Tchéquia x África do Sul - Jogo 25 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260618T130000
+DTEND;TZID=America/Sao_Paulo:20260618T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 18/06/2026 à
+ s 13h00\nLocal: Atlanta\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-026@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Suíça x Bósnia e Herzegovina - Jogo 26 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260618T160000
+DTEND;TZID=America/Sao_Paulo:20260618T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 18/06/2026 à
+ s 16h00\nLocal: Los Angeles\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-027@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Canadá x Catar - Jogo 27 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260618T190000
+DTEND;TZID=America/Sao_Paulo:20260618T220000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 18/06/2026 à
+ s 19h00\nLocal: Vancouver\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-028@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:México x República da Coreia - Jogo 28 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260618T220000
+DTEND;TZID=America/Sao_Paulo:20260619T010000
+LOCATION:Estádio de Guadalajara\, Guadalajara\, México
+DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 18/06/2026 à
+ s 22h00\nLocal: Guadalajara\, México\nFonte oficial: FIFA\nhttps://www.fi
+ fa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-029@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:🇧🇷 Brasil x Haiti - Jogo 29 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260619T213000
+DTEND;TZID=America/Sao_Paulo:20260620T003000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 19/06/2026 à
+ s 21h30\nLocal: Filadélfia\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-030@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Escócia x Marrocos - Jogo 30 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260619T190000
+DTEND;TZID=America/Sao_Paulo:20260619T220000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 19/06/2026 à
+ s 19h00\nLocal: Boston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-031@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Turquia x Paraguai - Jogo 31 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260620T000000
+DTEND;TZID=America/Sao_Paulo:20260620T030000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 20/06/2026 à
+ s 00h00\nLocal: Área da baía de São Francisco\, Estados Unidos\nFonte o
+ ficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexi
+ cousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-032@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:EUA x Austrália - Jogo 32 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260619T160000
+DTEND;TZID=America/Sao_Paulo:20260619T190000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 19/06/2026 à
+ s 16h00\nLocal: Seattle\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-033@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Alemanha x Costa do Marfim - Jogo 33 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260620T170000
+DTEND;TZID=America/Sao_Paulo:20260620T200000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 20/06/2026 à
+ s 17h00\nLocal: Toronto\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa.c
+ om/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-034@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Equador x Curaçau - Jogo 34 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260620T210000
+DTEND;TZID=America/Sao_Paulo:20260621T000000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 20/06/2026 à
+ s 21h00\nLocal: Kansas City\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-035@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Holanda x Suécia - Jogo 35 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260620T140000
+DTEND;TZID=America/Sao_Paulo:20260620T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 20/06/2026 à
+ s 14h00\nLocal: Houston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-036@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Tunísia x Japão - Jogo 36 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260621T010000
+DTEND;TZID=America/Sao_Paulo:20260621T040000
+LOCATION:Estádio de Monterrey\, Monterrey\, México
+DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 21/06/2026 à
+ s 01h00\nLocal: Monterrey\, México\nFonte oficial: FIFA\nhttps://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-037@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Uruguai x Cabo Verde - Jogo 37 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260621T190000
+DTEND;TZID=America/Sao_Paulo:20260621T220000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 21/06/2026 à
+ s 19h00\nLocal: Miami\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.f
+ ifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-038@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Espanha x Arábia Saudita - Jogo 38 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260621T130000
+DTEND;TZID=America/Sao_Paulo:20260621T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 21/06/2026 à
+ s 13h00\nLocal: Atlanta\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-039@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Bélgica x RI do Irã - Jogo 39 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260621T160000
+DTEND;TZID=America/Sao_Paulo:20260621T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 21/06/2026 à
+ s 16h00\nLocal: Los Angeles\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-040@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Nova Zelândia x Egito - Jogo 40 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260621T220000
+DTEND;TZID=America/Sao_Paulo:20260622T010000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 21/06/2026 à
+ s 22h00\nLocal: Vancouver\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-041@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Noruega x Senegal - Jogo 41 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260622T210000
+DTEND;TZID=America/Sao_Paulo:20260623T000000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 22/06/2026 à
+ s 21h00\nLocal: Nova Iorque\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-042@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:França x Iraque - Jogo 42 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260622T180000
+DTEND;TZID=America/Sao_Paulo:20260622T210000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 22/06/2026 à
+ s 18h00\nLocal: Filadélfia\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-043@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Argentina x Áustria - Jogo 43 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260622T140000
+DTEND;TZID=America/Sao_Paulo:20260622T170000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 22/06/2026 à
+ s 14h00\nLocal: Dallas\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-044@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Jordânia x Argélia - Jogo 44 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260623T000000
+DTEND;TZID=America/Sao_Paulo:20260623T030000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 23/06/2026 à
+ s 00h00\nLocal: Área da baía de São Francisco\, Estados Unidos\nFonte o
+ ficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexi
+ cousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-045@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Inglaterra x Gana - Jogo 45 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260623T170000
+DTEND;TZID=America/Sao_Paulo:20260623T200000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 23/06/2026 à
+ s 17h00\nLocal: Boston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-046@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Panamá x Croácia - Jogo 46 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260623T200000
+DTEND;TZID=America/Sao_Paulo:20260623T230000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 23/06/2026 à
+ s 20h00\nLocal: Toronto\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa.c
+ om/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-047@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Portugal x Uzbequistão - Jogo 47 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260623T140000
+DTEND;TZID=America/Sao_Paulo:20260623T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 23/06/2026 à
+ s 14h00\nLocal: Houston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-048@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Colômbia x RD do Congo - Jogo 48 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260623T230000
+DTEND;TZID=America/Sao_Paulo:20260624T020000
+LOCATION:Estádio de Guadalajara\, Guadalajara\, México
+DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 23/06/2026 à
+ s 23h00\nLocal: Guadalajara\, México\nFonte oficial: FIFA\nhttps://www.fi
+ fa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-049@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:🇧🇷 Escócia x Brasil - Jogo 49 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260624T190000
+DTEND;TZID=America/Sao_Paulo:20260624T220000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 24/06/2026 à
+ s 19h00\nLocal: Miami\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.f
+ ifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-050@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Marrocos x Haiti - Jogo 50 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260624T190000
+DTEND;TZID=America/Sao_Paulo:20260624T220000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 24/06/2026 à
+ s 19h00\nLocal: Atlanta\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-051@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Suíça x Canadá - Jogo 51 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260624T160000
+DTEND;TZID=America/Sao_Paulo:20260624T190000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 24/06/2026 à
+ s 16h00\nLocal: Vancouver\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-052@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Bósnia e Herzegovina x Catar - Jogo 52 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260624T160000
+DTEND;TZID=America/Sao_Paulo:20260624T190000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo B\nHorário de Brasília: 24/06/2026 à
+ s 16h00\nLocal: Seattle\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-053@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Tchéquia x México - Jogo 53 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260624T220000
+DTEND;TZID=America/Sao_Paulo:20260625T010000
+LOCATION:Estádio da Cidade do México\, Cidade do México\, México
+DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 24/06/2026 à
+ s 22h00\nLocal: Cidade do México\, México\nFonte oficial: FIFA\nhttps://
+ www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtu
+ res
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-054@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:África do Sul x República da Coreia - Jogo 54 - Copa do Mundo 202
+ 6
+DTSTART;TZID=America/Sao_Paulo:20260624T220000
+DTEND;TZID=America/Sao_Paulo:20260625T010000
+LOCATION:Estádio de Monterrey\, Monterrey\, México
+DESCRIPTION:Primeira fase • Grupo A\nHorário de Brasília: 24/06/2026 à
+ s 22h00\nLocal: Monterrey\, México\nFonte oficial: FIFA\nhttps://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-055@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Curaçau x Costa do Marfim - Jogo 55 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260625T170000
+DTEND;TZID=America/Sao_Paulo:20260625T200000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 25/06/2026 à
+ s 17h00\nLocal: Filadélfia\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-056@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Equador x Alemanha - Jogo 56 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260625T170000
+DTEND;TZID=America/Sao_Paulo:20260625T200000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo E\nHorário de Brasília: 25/06/2026 à
+ s 17h00\nLocal: Nova Iorque\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-057@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Japão x Suécia - Jogo 57 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260625T200000
+DTEND;TZID=America/Sao_Paulo:20260625T230000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 25/06/2026 à
+ s 20h00\nLocal: Dallas\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-058@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Tunísia x Holanda - Jogo 58 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260625T200000
+DTEND;TZID=America/Sao_Paulo:20260625T230000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo F\nHorário de Brasília: 25/06/2026 à
+ s 20h00\nLocal: Kansas City\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-059@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Turquia x EUA - Jogo 59 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260625T230000
+DTEND;TZID=America/Sao_Paulo:20260626T020000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 25/06/2026 à
+ s 23h00\nLocal: Los Angeles\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-060@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Paraguai x Austrália - Jogo 60 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260625T230000
+DTEND;TZID=America/Sao_Paulo:20260626T020000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo D\nHorário de Brasília: 25/06/2026 à
+ s 23h00\nLocal: Área da baía de São Francisco\, Estados Unidos\nFonte o
+ ficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexi
+ cousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-061@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Noruega x França - Jogo 61 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260626T160000
+DTEND;TZID=America/Sao_Paulo:20260626T190000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 26/06/2026 à
+ s 16h00\nLocal: Boston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-062@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Senegal x Iraque - Jogo 62 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260626T160000
+DTEND;TZID=America/Sao_Paulo:20260626T190000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Primeira fase • Grupo I\nHorário de Brasília: 26/06/2026 à
+ s 16h00\nLocal: Toronto\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa.c
+ om/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-063@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Egito x RI do Irã - Jogo 63 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260627T000000
+DTEND;TZID=America/Sao_Paulo:20260627T030000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 27/06/2026 à
+ s 00h00\nLocal: Seattle\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-064@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Nova Zelândia x Bélgica - Jogo 64 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260627T000000
+DTEND;TZID=America/Sao_Paulo:20260627T030000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Primeira fase • Grupo G\nHorário de Brasília: 27/06/2026 à
+ s 00h00\nLocal: Vancouver\, Canadá\nFonte oficial: FIFA\nhttps://www.fifa
+ .com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-065@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Cabo Verde x Arábia Saudita - Jogo 65 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260626T210000
+DTEND;TZID=America/Sao_Paulo:20260627T000000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 26/06/2026 à
+ s 21h00\nLocal: Houston\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-066@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Uruguai x Espanha - Jogo 66 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260626T210000
+DTEND;TZID=America/Sao_Paulo:20260627T000000
+LOCATION:Estádio de Guadalajara\, Guadalajara\, México
+DESCRIPTION:Primeira fase • Grupo H\nHorário de Brasília: 26/06/2026 à
+ s 21h00\nLocal: Guadalajara\, México\nFonte oficial: FIFA\nhttps://www.fi
+ fa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-067@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Panamá x Inglaterra - Jogo 67 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260627T180000
+DTEND;TZID=America/Sao_Paulo:20260627T210000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 27/06/2026 à
+ s 18h00\nLocal: Nova Iorque\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-068@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Croácia x Gana - Jogo 68 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260627T180000
+DTEND;TZID=America/Sao_Paulo:20260627T210000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo L\nHorário de Brasília: 27/06/2026 à
+ s 18h00\nLocal: Filadélfia\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-069@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Argélia x Áustria - Jogo 69 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260627T230000
+DTEND;TZID=America/Sao_Paulo:20260628T020000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 27/06/2026 à
+ s 23h00\nLocal: Kansas City\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-070@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Jordânia x Argentina - Jogo 70 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260627T230000
+DTEND;TZID=America/Sao_Paulo:20260628T020000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo J\nHorário de Brasília: 27/06/2026 à
+ s 23h00\nLocal: Dallas\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.
+ fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-071@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:Colômbia x Portugal - Jogo 71 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260627T203000
+DTEND;TZID=America/Sao_Paulo:20260627T233000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 27/06/2026 à
+ s 20h30\nLocal: Miami\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.f
+ ifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-072@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:RD do Congo x Uzbequistão - Jogo 72 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260627T203000
+DTEND;TZID=America/Sao_Paulo:20260627T233000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Primeira fase • Grupo K\nHorário de Brasília: 27/06/2026 à
+ s 20h30\nLocal: Atlanta\, Estados Unidos\nFonte oficial: FIFA\nhttps://www
+ .fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-073@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:2A x 2B - Jogo 73 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260628T160000
+DTEND;TZID=America/Sao_Paulo:20260628T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  28/06/2026 às 16h00\nLocal: Los Angeles\, Estados Unidos\nFonte oficial:
   FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
  26/scores-fixtures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+UID:fifa-wc2026-match-074@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1E x 3ABCDF - Jogo 74 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260629T173000
+DTEND;TZID=America/Sao_Paulo:20260629T203000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  29/06/2026 às 17h30\nLocal: Boston\, Estados Unidos\nFonte oficial: FIFA
+ \nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/sc
+ ores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-075@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1F x 2C - Jogo 75 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260629T220000
+DTEND;TZID=America/Sao_Paulo:20260630T010000
+LOCATION:Estádio de Monterrey\, Monterrey\, México
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  29/06/2026 às 22h00\nLocal: Monterrey\, México\nFonte oficial: FIFA\nht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-076@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1C x 2F - Jogo 76 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260629T140000
+DTEND;TZID=America/Sao_Paulo:20260629T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  29/06/2026 às 14h00\nLocal: Houston\, Estados Unidos\nFonte oficial: FIF
+ A\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-077@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1I x 3CDFGH - Jogo 77 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260630T180000
+DTEND;TZID=America/Sao_Paulo:20260630T210000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  30/06/2026 às 18h00\nLocal: Nova Iorque\, Estados Unidos\nFonte oficial:
+  FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
+ 26/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-078@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:2E x 2I - Jogo 78 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260630T140000
+DTEND;TZID=America/Sao_Paulo:20260630T170000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  30/06/2026 às 14h00\nLocal: Dallas\, Estados Unidos\nFonte oficial: FIFA
+ \nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/sc
+ ores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-079@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1A x 3CEFHI - Jogo 79 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260630T220000
+DTEND;TZID=America/Sao_Paulo:20260701T010000
+LOCATION:Estádio da Cidade do México\, Cidade do México\, México
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  30/06/2026 às 22h00\nLocal: Cidade do México\, México\nFonte oficial: 
+ FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa202
+ 6/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-080@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1L x 3EHIJK - Jogo 80 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260701T130000
+DTEND;TZID=America/Sao_Paulo:20260701T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  01/07/2026 às 13h00\nLocal: Atlanta\, Estados Unidos\nFonte oficial: FIF
+ A\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-081@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1D x 3BEFIJ - Jogo 81 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260701T210000
+DTEND;TZID=America/Sao_Paulo:20260702T000000
+LOCATION:Estádio da Baía de São Francisco\, Área da baía de São Franc
+ isco\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  01/07/2026 às 21h00\nLocal: Área da baía de São Francisco\, Estados U
+ nidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/world
+ cup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-082@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1G x 3AEHIJ - Jogo 82 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260701T170000
+DTEND;TZID=America/Sao_Paulo:20260701T200000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  01/07/2026 às 17h00\nLocal: Seattle\, Estados Unidos\nFonte oficial: FIF
+ A\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/s
+ cores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-083@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:2K x 2L - Jogo 83 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260702T200000
+DTEND;TZID=America/Sao_Paulo:20260702T230000
+LOCATION:Estádio de Toronto \, Toronto\, Canadá
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  02/07/2026 às 20h00\nLocal: Toronto\, Canadá\nFonte oficial: FIFA\nhttp
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-084@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1H x 2J - Jogo 84 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260702T160000
+DTEND;TZID=America/Sao_Paulo:20260702T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  02/07/2026 às 16h00\nLocal: Los Angeles\, Estados Unidos\nFonte oficial:
+  FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
+ 26/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-085@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1B x 3EFGIJ - Jogo 85 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260703T000000
+DTEND;TZID=America/Sao_Paulo:20260703T030000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  03/07/2026 às 00h00\nLocal: Vancouver\, Canadá\nFonte oficial: FIFA\nht
+ tps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores
+ -fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-086@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1J x 2H - Jogo 86 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260703T190000
+DTEND;TZID=America/Sao_Paulo:20260703T220000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  03/07/2026 às 19h00\nLocal: Miami\, Estados Unidos\nFonte oficial: FIFA\
+ nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/sco
+ res-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-087@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:1K x 3DEIJL - Jogo 87 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260703T223000
+DTEND;TZID=America/Sao_Paulo:20260704T013000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  03/07/2026 às 22h30\nLocal: Kansas City\, Estados Unidos\nFonte oficial:
+  FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
+ 26/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-088@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:2D x 2G - Jogo 88 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260703T150000
+DTEND;TZID=America/Sao_Paulo:20260703T180000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Segundas de final • Segundas de final\nHorário de Brasília:
+  03/07/2026 às 15h00\nLocal: Dallas\, Estados Unidos\nFonte oficial: FIFA
+ \nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/sc
+ ores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-089@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W74 x W77 - Jogo 89 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260704T180000
+DTEND;TZID=America/Sao_Paulo:20260704T210000
+LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
+DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
+ 4/07/2026 às 18h00\nLocal: Filadélfia\, Estados Unidos\nFonte oficial: F
+ IFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-090@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W73 x W75 - Jogo 90 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260704T140000
+DTEND;TZID=America/Sao_Paulo:20260704T170000
+LOCATION:Estádio de Houston\, Houston\, Estados Unidos
+DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
+ 4/07/2026 às 14h00\nLocal: Houston\, Estados Unidos\nFonte oficial: FIFA\
+ nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/sco
+ res-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-091@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W76 x W78 - Jogo 91 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260705T170000
+DTEND;TZID=America/Sao_Paulo:20260705T200000
+LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
+DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
+ 5/07/2026 às 17h00\nLocal: Nova Iorque\, Estados Unidos\nFonte oficial: F
+ IFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-092@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W79 x W80 - Jogo 92 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260705T210000
+DTEND;TZID=America/Sao_Paulo:20260706T000000
+LOCATION:Estádio da Cidade do México\, Cidade do México\, México
+DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
+ 5/07/2026 às 21h00\nLocal: Cidade do México\, México\nFonte oficial: FI
+ FA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/
+ scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-093@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W83 x W84 - Jogo 93 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260706T160000
+DTEND;TZID=America/Sao_Paulo:20260706T190000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
+ 6/07/2026 às 16h00\nLocal: Dallas\, Estados Unidos\nFonte oficial: FIFA\n
+ https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scor
+ es-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-094@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W81 x W82 - Jogo 94 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260706T210000
+DTEND;TZID=America/Sao_Paulo:20260707T000000
+LOCATION:Estádio de Seattle\, Seattle\, Estados Unidos
+DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
+ 6/07/2026 às 21h00\nLocal: Seattle\, Estados Unidos\nFonte oficial: FIFA\
+ nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/sco
+ res-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-095@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W86 x W88 - Jogo 95 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260707T130000
+DTEND;TZID=America/Sao_Paulo:20260707T160000
+LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
+DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
+ 7/07/2026 às 13h00\nLocal: Atlanta\, Estados Unidos\nFonte oficial: FIFA\
+ nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/sco
+ res-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-096@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W85 x W87 - Jogo 96 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260707T170000
+DTEND;TZID=America/Sao_Paulo:20260707T200000
+LOCATION:BC Place de Vancouver\, Vancouver\, Canadá
+DESCRIPTION:Oitavas de final • Oitavas de final\nHorário de Brasília: 0
+ 7/07/2026 às 17h00\nLocal: Vancouver\, Canadá\nFonte oficial: FIFA\nhttp
+ s://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-f
+ ixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-097@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W89 x W90 - Jogo 97 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260709T170000
+DTEND;TZID=America/Sao_Paulo:20260709T200000
+LOCATION:Estádio de Boston\, Boston\, Estados Unidos
+DESCRIPTION:Quartas de final • Quartas de final\nHorário de Brasília: 0
+ 9/07/2026 às 17h00\nLocal: Boston\, Estados Unidos\nFonte oficial: FIFA\n
+ https://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scor
+ es-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-098@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W93 x W94 - Jogo 98 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260710T160000
+DTEND;TZID=America/Sao_Paulo:20260710T190000
+LOCATION:Estádio de Los Angeles\, Los Angeles\, Estados Unidos
+DESCRIPTION:Quartas de final • Quartas de final\nHorário de Brasília: 1
+ 0/07/2026 às 16h00\nLocal: Los Angeles\, Estados Unidos\nFonte oficial: F
+ IFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-099@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W91 x W92 - Jogo 99 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260711T180000
+DTEND;TZID=America/Sao_Paulo:20260711T210000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Quartas de final • Quartas de final\nHorário de Brasília: 1
+ 1/07/2026 às 18h00\nLocal: Miami\, Estados Unidos\nFonte oficial: FIFA\nh
+ ttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/score
+ s-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-100@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W95 x W96 - Jogo 100 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260711T220000
+DTEND;TZID=America/Sao_Paulo:20260712T010000
+LOCATION:Estádio de Kansas City\, Kansas City\, Estados Unidos
+DESCRIPTION:Quartas de final • Quartas de final\nHorário de Brasília: 1
+ 1/07/2026 às 22h00\nLocal: Kansas City\, Estados Unidos\nFonte oficial: F
+ IFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026
+ /scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-101@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:W97 x W98 - Jogo 101 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260714T160000
+DTEND;TZID=America/Sao_Paulo:20260714T190000
+LOCATION:Estádio de Dallas\, Dallas\, Estados Unidos
+DESCRIPTION:Semifinal • Semifinal\nHorário de Brasília: 14/07/2026 às 
+ 16h00\nLocal: Dallas\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.fi
+ fa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 UID:fifa-wc2026-match-102@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
+DTSTAMP:20260420T135320Z
 SUMMARY:W99 x W100 - Jogo 102 - Copa do Mundo 2026
 DTSTART;TZID=America/Sao_Paulo:20260715T160000
 DTEND;TZID=America/Sao_Paulo:20260715T190000
 LOCATION:Estádio de Atlanta\, Atlanta\, Estados Unidos
 DESCRIPTION:Semifinal • Semifinal\nHorário de Brasília: 15/07/2026 às 
- 16h00\nLocal: Estádio de Atlanta\, Atlanta\, Estados Unidos\nFonte oficia
+ 16h00\nLocal: Atlanta\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.f
+ ifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc2026-match-103@fifa-world-cup-2026-calendar.local
+DTSTAMP:20260420T135320Z
+SUMMARY:RU101 x RU102 - Jogo 103 - Copa do Mundo 2026
+DTSTART;TZID=America/Sao_Paulo:20260718T180000
+DTEND;TZID=America/Sao_Paulo:20260718T210000
+LOCATION:Estádio de Miami\, Miami\, Estados Unidos
+DESCRIPTION:Decisão do 3º lugar • Decisão do 3º lugar\nHorário de Br
+ asília: 18/07/2026 às 18h00\nLocal: Miami\, Estados Unidos\nFonte oficia
  l: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa
  2026/scores-fixtures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-wc2026-match-103@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
-SUMMARY:RU101 x RU102 - Jogo 103 - Copa do Mundo 2026
-DTSTART;TZID=America/Sao_Paulo:20260718T180000
-DTEND;TZID=America/Sao_Paulo:20260718T210000
-LOCATION:Estádio de Miami\, Miami\, Estados Unidos
-DESCRIPTION:Decisão do 3º lugar • Decisão do 3º lugar\nHorário de Br
- asília: 18/07/2026 às 18h00\nLocal: Estádio de Miami\, Miami\, Estados 
- Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worl
- dcup/canadamexicousa2026/scores-fixtures
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:fifa-wc2026-match-104@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
+DTSTAMP:20260420T135320Z
 SUMMARY:W101 x W102 - Jogo 104 - Copa do Mundo 2026
 DTSTART;TZID=America/Sao_Paulo:20260719T160000
 DTEND;TZID=America/Sao_Paulo:20260719T190000
 LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
 DESCRIPTION:Final • Final\nHorário de Brasília: 19/07/2026 às 16h00\nL
- ocal: Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
+ ocal: Nova Iorque\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.fifa.
+ com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

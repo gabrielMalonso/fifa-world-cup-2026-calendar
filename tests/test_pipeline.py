@@ -89,6 +89,11 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(ics_text.count("BEGIN:VEVENT"), 1)
         self.assertIn("SUMMARY:🇧🇷 Brasil x Marrocos - Jogo 7 - Copa do Mundo 2026", unfolded_ics_text)
         self.assertIn("Horário de Brasília: 13/06/2026 às 19h00", unfolded_ics_text)
+        self.assertIn("Local: Nova York/Nova Jersey\\, Estados Unidos", unfolded_ics_text)
+        self.assertNotIn(
+            "Local: Estádio de Nova York/Nova Jersey\\, Nova York/Nova Jersey\\, Estados Unidos",
+            unfolded_ics_text,
+        )
         self.assertNotIn("Horário bruto da fonte", unfolded_ics_text)
         self.assertEqual(validate_outputs([fixture], ics_text), [])
 

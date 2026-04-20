@@ -17,43 +17,42 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fifa-wc2026-match-007@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
+DTSTAMP:20260420T135320Z
 SUMMARY:🇧🇷 Brasil x Marrocos - Jogo 7 - Copa do Mundo 2026
 DTSTART;TZID=America/Sao_Paulo:20260613T190000
 DTEND;TZID=America/Sao_Paulo:20260613T220000
 LOCATION:Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados Unidos
 DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 13/06/2026 à
- s 19h00\nLocal: Estádio de Nova York/Nova Jersey\, Nova Iorque\, Estados 
- Unidos\nFonte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worl
- dcup/canadamexicousa2026/scores-fixtures
+ s 19h00\nLocal: Nova Iorque\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:fifa-wc2026-match-029@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
+DTSTAMP:20260420T135320Z
 SUMMARY:🇧🇷 Brasil x Haiti - Jogo 29 - Copa do Mundo 2026
 DTSTART;TZID=America/Sao_Paulo:20260619T213000
 DTEND;TZID=America/Sao_Paulo:20260620T003000
 LOCATION:Estádio de Filadélfia\, Filadélfia\, Estados Unidos
 DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 19/06/2026 à
- s 21h30\nLocal: Estádio de Filadélfia\, Filadélfia\, Estados Unidos\nFo
- nte oficial: FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canad
- amexicousa2026/scores-fixtures
+ s 21h30\nLocal: Filadélfia\, Estados Unidos\nFonte oficial: FIFA\nhttps:/
+ /www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixt
+ ures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:fifa-wc2026-match-049@fifa-world-cup-2026-calendar.local
-DTSTAMP:20260419T222214Z
+DTSTAMP:20260420T135320Z
 SUMMARY:🇧🇷 Escócia x Brasil - Jogo 49 - Copa do Mundo 2026
 DTSTART;TZID=America/Sao_Paulo:20260624T190000
 DTEND;TZID=America/Sao_Paulo:20260624T220000
 LOCATION:Estádio de Miami\, Miami\, Estados Unidos
 DESCRIPTION:Primeira fase • Grupo C\nHorário de Brasília: 24/06/2026 à
- s 19h00\nLocal: Estádio de Miami\, Miami\, Estados Unidos\nFonte oficial:
-  FIFA\nhttps://www.fifa.com/pt/tournaments/mens/worldcup/canadamexicousa20
- 26/scores-fixtures
+ s 19h00\nLocal: Miami\, Estados Unidos\nFonte oficial: FIFA\nhttps://www.f
+ ifa.com/pt/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

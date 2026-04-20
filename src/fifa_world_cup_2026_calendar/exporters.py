@@ -69,15 +69,20 @@ def _build_summary(fixture: dict[str, Any]) -> str:
     return f"{prefix}{teams} - Copa do Mundo 2026"
 
 
+def _build_description_location(fixture: dict[str, Any]) -> str:
+    primary_location = ", ".join(item for item in [fixture["city"], fixture["country"]] if item)
+    if primary_location:
+        return primary_location
+
+    return ", ".join(item for item in [fixture["venue_name"], fixture["country"]] if item)
+
+
 def _build_description(fixture: dict[str, Any]) -> str:
-    location = ", ".join(
-        item for item in [fixture["venue_name"], fixture["city"], fixture["country"]] if item
-    )
     return "\n".join(
         [
             f"{fixture['stage']} • {fixture['group_or_round']}",
             f"Horário de Brasília: {_format_brt_display(fixture['kickoff_brt'])}",
-            f"Local: {location}",
+            f"Local: {_build_description_location(fixture)}",
             "Fonte oficial: FIFA",
             fixture["source_url"],
         ]
