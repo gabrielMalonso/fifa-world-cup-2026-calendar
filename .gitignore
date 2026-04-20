@@ -1,3 +1,5 @@
 node_modules/
 .site-build/
 dist/
+.env.local
+.env.*.local

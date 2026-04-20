@@ -178,6 +178,28 @@ Traduzindo para o mundo real:
 | Quero sync real com meu calendário | Criar sincronização via Google Calendar API ou Google Apps Script |
 | Quero auditar mudanças | Usar o diff gerado em `output/world_cup_2026_diff_summary.txt` |
 
+## Analytics da página
+
+O frontend suporta analytics opcional via `Google Analytics 4`.
+
+Setup:
+
+1. copie `.env.example` para `.env.local`
+2. preencha `VITE_GA_MEASUREMENT_ID`
+3. rode `npm run site:publish`
+4. faça `commit + push`
+
+Eventos já instrumentados:
+
+- `page_view`
+- `copy_feed_url`
+- `download_full_ics`
+- `open_webcal`
+- `view_single_feed_tab`
+- `view_split_feeds_tab`
+
+Sem `VITE_GA_MEASUREMENT_ID`, a página continua normal e não envia evento nenhum.
+
 ## Testes
 
 ```bash

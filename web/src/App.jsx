@@ -1,4 +1,5 @@
 import React from "react";
+import { trackEvent, trackPageView } from "./analytics";
 
 const FEEDS = {
   full: "https://gabrielmalonso.github.io/fifa-world-cup-2026-calendar/output/world_cup_2026_fixtures_v2.ics",
@@ -15,18 +16,22 @@ function copyToClipboard(value) {
   return navigator.clipboard.writeText(value);
 }
 
-function FeedRow({ title, caption, url, tone = "neutral", actions = [] }) {
+function FeedRow({ title, caption, url, tone = "neutral", actions = [], analyticsLabel }) {
   const [copied, setCopied] = React.useState(false);
 
   const handleCopy = React.useCallback(async () => {
     try {
       await copyToClipboard(url);
+      trackEvent("copy_feed_url", {
+        feed_name: analyticsLabel,
+        feed_url: url
+      });
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
     } catch {
       // silent fail
     }
-  }, [url]);
+  }, [analyticsLabel, url]);
 
   return (
     <div className={`feed-row feed-row--${tone}`}>
@@ -52,6 +57,14 @@ function FeedRow({ title, caption, url, tone = "neutral", actions = [] }) {
               className="button ghost"
               href={action.href}
               download={action.download}
+              onClick={() => {
+                if (action.eventName) {
+                  trackEvent(action.eventName, {
+                    feed_name: analyticsLabel,
+                    feed_url: action.href
+                  });
+                }
+              }}
             >
               {action.label}
             </a>
@@ -99,6 +112,10 @@ function App() {
   }, [syncPanelHeight, tab]);
 
   React.useEffect(() => {
+    trackPageView();
+  }, []);
+
+  React.useEffect(() => {
     if (!panelRef.current || typeof ResizeObserver === "undefined") {
       return undefined;
     }
@@ -111,6 +128,12 @@ function App() {
 
     return () => observer.disconnect();
   }, [syncPanelHeight, tab]);
+
+  React.useEffect(() => {
+    trackEvent(tab === "single" ? "view_single_feed_tab" : "view_split_feeds_tab", {
+      active_tab: tab
+    });
+  }, [tab]);
 
   return (
     <div className="app-shell">
@@ -140,13 +163,19 @@ function App() {
             <div key={tab} ref={panelRef} className={`tab-panel tab-panel--${tab}`}>
               {tab === "single" ? (
                 <FeedRow
-                  title="Feed completo"
-                  caption="Todos os jogos em um único calendário."
-                  url={FEEDS.full}
-                  tone="ink"
-                  actions={[
-                    { label: "Baixar ICS", href: FEEDS.full, download: fullDownloadName },
-                    { label: "webcal", href: WEBcal.full }
+                title="Feed completo"
+                caption="Todos os jogos em um único calendário."
+                url={FEEDS.full}
+                tone="ink"
+                analyticsLabel="feed_completo"
+                actions={[
+                    {
+                      label: "Baixar ICS",
+                      href: FEEDS.full,
+                      download: fullDownloadName,
+                      eventName: "download_full_ics"
+                    },
+                    { label: "webcal", href: WEBcal.full, eventName: "open_webcal" }
                   ]}
                 />
               ) : (
@@ -156,12 +185,14 @@ function App() {
                     caption="Todos os jogos, exceto os do Brasil."
                     url={FEEDS.noBrazil}
                     tone="green"
+                    analyticsLabel="feed_sem_brasil"
                   />
                   <FeedRow
                     title="Brasil"
                     caption="Apenas jogos da seleção."
                     url={FEEDS.brazil}
                     tone="yellow"
+                    analyticsLabel="feed_brasil"
                   />
                   <div className="color-hint">
                     <strong>Cores recomendadas:</strong>
